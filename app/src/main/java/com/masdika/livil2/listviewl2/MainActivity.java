@@ -22,17 +22,19 @@ public class MainActivity extends AppCompatActivity {
                 "Linux", "OS/2"
         };
 
-        final ArrayList<String> list = new ArrayLIst<String>();
+        final ArrayList<String> list = new ArrayList<String>();
         for (int i = 0; i < values.length; i++){
             list.add(values[i]);
         }
 
-        final StableArrayAdapter adapter = new StableArrayAdapter (this, android.R.layout.simple_list_item_1, list);
+        //final StableArrayAdapter adapter = new StableArrayAdapter (this, android.R.layout.simple_list_item_1, list);
+        //listView.setAdapter(adapter);
+        final MySimpleArrayAdapter adapter = new MySimpleArrayAdapter(this, values);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemClick(AdapterView<?> parent, final View view, int position, long id) {
                 final String item = (String) parent.getItemAtPosition(position);
                 view.animate().setDuration(2000).alpha(0).withEndAction(new Runnable() {
                     @Override
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                         adapter.notifyDataSetChanged();
                         view.setAlpha(1);
                     }
-                })
+                });
             }
         });
     }
