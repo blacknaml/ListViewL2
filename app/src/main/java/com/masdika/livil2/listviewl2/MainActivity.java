@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -17,9 +18,10 @@ public class MainActivity extends AppCompatActivity {
 
         final ListView listView = (ListView) findViewById(R.id.listview);
         String[] values = new String[] {
-                "Android", "Iphone", "Windows Mobile", "Blackberry", "WebOS", "Ubuntu", "Windows7", "Mac OS X",
-                "Linux", "OS/2", "Android", "Iphone", "Windows Mobile", "Blackberry", "WebOS", "Ubuntu", "Windows7", "Mac OS X",
-                "Linux", "OS/2"
+                "Android", "iPhone", "CentOS", "Windows Mobile", "Blackberry", "WebOS", "Ubuntu", "Windows7", "Debian", "Mac OS X",
+                "Linux", "OS/2", "Android", "iPhone", "Slackware", "Windows Mobile", "Blackberry", "WebOS", "Ubuntu", "Windows7", "Mac OS X",
+                "Linux", "OS/2", "Fedora", "Slackware", "Mint", "Windows 10", "Knoppix", "FreeBSD", "Raspbian", "Windows 98", "MS DOS",
+                "openBSD", "Windows Me"
         };
 
         final ArrayList<String> list = new ArrayList<String>();
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         //final StableArrayAdapter adapter = new StableArrayAdapter (this, android.R.layout.simple_list_item_1, list);
         //listView.setAdapter(adapter);
+
         final MySimpleArrayAdapter adapter = new MySimpleArrayAdapter(this, values);
         listView.setAdapter(adapter);
 
@@ -36,14 +39,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, final View view, int position, long id) {
                 final String item = (String) parent.getItemAtPosition(position);
-                view.animate().setDuration(2000).alpha(0).withEndAction(new Runnable() {
-                    @Override
-                    public void run() {
-                        list.remove(item);
-                        adapter.notifyDataSetChanged();
-                        view.setAlpha(1);
-                    }
-                });
+//                view.animate().setDuration(2000).alpha(0).withEndAction(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        list.remove(item);
+//                        adapter.notifyDataSetChanged();
+//                        view.setAlpha(1);
+//                    }
+//                });
+                Toast.makeText(MainActivity.this, String.valueOf(parent.getItemAtPosition(position)), Toast.LENGTH_SHORT).show();
             }
         });
     }

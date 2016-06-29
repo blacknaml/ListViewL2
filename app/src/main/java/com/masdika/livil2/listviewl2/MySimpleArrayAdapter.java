@@ -27,15 +27,18 @@ public class MySimpleArrayAdapter extends ArrayAdapter<String> {
 
         View rowView = inflater.inflate(R.layout.rowlayout, parent, false);
         TextView textview = (TextView) rowView.findViewById(R.id.label);
+        TextView textinfo = (TextView) rowView.findViewById(R.id.info);
         ImageView imageview = (ImageView) rowView.findViewById(R.id.icon);
 
         textview.setText(values[position]);
 
         String s = values[position];
-        if(s.startsWith("iPhone")){
+        if(s.startsWith("Window") || s.startsWith("iPhone") || s.startsWith("Mac") || s.startsWith("OS/2")){
             imageview.setImageResource(R.drawable.no);
+            textinfo.setText(s + " is not Opensource or FOSS. In other word is propietary OS. You need $ to use it. Do not PIRACY!!!.");
         } else {
             imageview.setImageResource(R.drawable.ok);
+            textinfo.setText(s + " is Opensource or FOSS. In other word is Free / Open OS. You can do anythings.");
         }
 
         return rowView;

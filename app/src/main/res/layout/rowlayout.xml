@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" >
 
     <ImageView
-        android:id="@+id/icon"
-        android:layout_width="22px"
-        android:layout_height="22px"
-        android:layout_marginLeft="4px"
-        android:layout_marginRight="10px"
-        android:layout_marginTop="4px"
-        android:src="@drawable/ic_launcher" >
+            android:id="@+id/icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_launcher" >
     </ImageView>
 
-    <TextView
-        android:id="@+id/label"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@+id/label"
-        android:textSize="20px" >
-    </TextView>
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="test"
+            android:textSize="22sp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="6dp"
+            android:text="test"
+            android:textSize="16sp">
+        </TextView>
+    </LinearLayout>
 
 </LinearLayout>
