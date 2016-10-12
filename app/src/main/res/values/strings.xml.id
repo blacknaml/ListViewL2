@@ -3,14 +3,14 @@
     <string name="flic_app_name">Flic</string>
 
     <!-- Notifications -->
-    <string name="notification_connect_bluetooth_action_bluetooth_not_enabled_error_title">Connect Bluetooth Action</string>
-    <string name="notification_connect_bluetooth_action_bluetooth_not_enabled_error_text">Bluetooth is not enabled</string>
-    <string name="notification_connect_network_action_connect_error_title">Connect Network Action</string>
-    <string name="notification_connect_network_action_connect_error_text">Unable to connect</string>
-    <string name="notification_flashlight_action_turn_on_error_title">Flashlight action</string>
-    <string name="notification_flashlight_action_turn_on_error_text">Unable to turn on led</string>
-    <string name="notification_flashlight_action_turn_off_error_title">Flashlight action</string>
-    <string name="notification_flashlight_action_turn_off_error_text">Unable to turn off led</string>
+    <string name="notification_connect_bluetooth_action_bluetooth_not_enabled_error_title">Hubungkan Tindakan Bluetooth</string>
+    <string name="notification_connect_bluetooth_action_bluetooth_not_enabled_error_text">Bluetooth dinonaktifkan</string>
+    <string name="notification_connect_network_action_connect_error_title">Hubungkan Tindakan Jaringan</string>
+    <string name="notification_connect_network_action_connect_error_text">Tidak dapat tersambung</string>
+    <string name="notification_flashlight_action_turn_on_error_title">Tindakan senter</string>
+    <string name="notification_flashlight_action_turn_on_error_text">Tidak dapat menghidupkan led</string>
+    <string name="notification_flashlight_action_turn_off_error_title">Tindakan senter</string>
+    <string name="notification_flashlight_action_turn_off_error_text">Tidak dapat mematikan led</string>
 
 
     <!--
@@ -58,7 +58,7 @@
     <string name="flic_app_secret">26562594-18ff-4871-84c2-4369612f1c8f</string>
 
     <!-- Tasker -->
-    <string name="tasker_plugin_name">Flic Tasker plugin</string>
+    <string name="tasker_plugin_name">Plugin Flic Tasker</string>
 
     <!-- Spotify -->
     <string name="spotify_client_secret">024bc19a1bb24d75b645758a5aa7ec78</string>
