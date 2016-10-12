@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <!-- Flic -->
     <string name="flic_app_name">Flic</string>
 
@@ -21,27 +21,7 @@
     -->
 
     <!-- Changelog -->
-    <string name="activity_settings_changelog_popup_text">*Completely new base logic. If anything doesn\'t work as expected, please contact us at android@shortcutlabs.com\n\n*WeMo
-    reinserted\n\n*Supported apps. More applications will come soon..\n\n*New category overview\n\n<b>1.5.4</b>\n\n*New action: Runkeeper.\n\n*WeMo temporarily removed.\n\nSorry for a small update. Something BIG is coming soon..\n\n<b>1.5.3</b>\n\n
-    *Added Configs in the provider-view. A user can now set a predefined set on actions and load this anytime he/she wants.\n\n*Added a new action
-    called "Change Config". May be clear what this action does.\n\n*Added the possibility to temporarily inactivate providers. Since we often use third party SDK\'s, we can\'t guarantee that they work as they
-    should.\n\n*Added a new Action - Bluetooth Control - that lets you toggle a connection to a known Bluetooth device.\n\n*The actions in the action-overview are now draggable. Hold one action down for a second
-    and you can move it around.\n\n*Added the possibility to hide all your disconnected Flics in the main view for a better Flic overview.\n\n*The camera now works behind locked screen.\n\n*Added graphics in the
-    action overview to let our users see what happens in the application when you press the Flic.\n\n*The IFTTT-action now supports tags. This gives our IFTTT-users more options.\n\n<b>1.5.0</b>\n\n*A
-    fix to the Tasker plugin that might break your Tasker configurations.\n\n*Improved battery life. Some users will notice a great change.\n\n*The emails sent from help &amp; feedback are now redirected to
-    the entire android team due to a high amount of mails sent right now. The developers personally take care of all these mail since we find them very important. So keep sending them!\n\n*Fixed a bug where
-    the Flicservice randomly started even tho you exited the application. (Thanks Julius)\n\n*I guess you all noted that all your configurations disappeared in the previous version. All bad things bring something good. We found a nasty bug in our synchronizing
-    algorithm. That is now fixed. And from now on, we won\'t touch your configurations again :).\n\n*Added GCM (Google Cloud Messaging) so we can reach you guys if we have something important to tell. This will
-    not be abused.\n\n*Fixed a visual bug where the footer of the search wizard wasn\'n shown on some devices.\n\n*Continued to fix crashes (we rarely get any at this point. If you find stability issues
-    that doesn\'t generate crashes, please write to us at android@shortcutlabs.com).\n\n*Improved the camera action. A better one will come later.\n\n*Added the option to hide/show your Flics that are not in
-    range. (Thanks Tomer)\n\n<b>1.4.8</b>\n\n*Added this fancy changelog button (thanks Tomer). A very good idea since Play Store doesn\'t allow more than 500 characters. And
-    we thought that you might be interested in what we are up to. We would like your feedback even here. Maybe this changelog is too long/short?\n\n*Removed a visual bug that didn\'t show
-    any status indicator in the main Flic overview screen.\n\n*Fixed the crashes that were reported.\n\n*Removed \"Hour\" from the delay field (who is using that?) when configuring an action, and added
-    milliseconds. Could thank Tomer on this one as well, but I take the honor here.\n\n*Added a \"Rate us\"-prompt (that shouldn\'t be too annoying).\n\n*Finally replaced our error
-    sound, that a few of you might have heard by now. (Thanks Jonathan)\n\n*Improved the Flic click counter. The number of clicks are now stored in the Flic, instead of in the application.\n\n*Shazam action
-    now work with both the free and premium version of the app. (Thanks Hendrik)\n\n*Fixed a bug where the error prompt was shown even when successfully synchronizing Flics to a new
-    device\n\n*LIFX no longer clears/refreshes the devices when you switch network. (Thanks Troy)\n\n*Improved the network switch listener. This will improve all the actions using LAN.
-    (Thanks again Troy)\n\n*Various of other small bug fixes.\n\nThanks to everyone for reporting (and even crashing the app). More features will come. Stay tuned.</string>
+    <string name="activity_settings_changelog_popup_text">*Completely new base logic. If anything doesn\'t work as expected, please contact us at android@shortcutlabs.com\n\n*WeMo reinserted\n\n*Supported apps. More applications will come soon..\n\n*New category overview\n\n<b>1.5.4</b>\n\n*New action: Runkeeper.\n\n*WeMo temporarily removed.\n\nSorry for a small update. Something BIG is coming soon..\n\n<b>1.5.3</b>\n\n *Added Configs in the provider-view. A user can now set a predefined set on actions and load this anytime he/she wants.\n\n*Added a new action called \"Change Config\". May be clear what this action does.\n\n*Added the possibility to temporarily inactivate providers. Since we often use third party SDK\'s, we can\'t guarantee that they work as they should.\n\n*Added a new Action - Bluetooth Control - that lets you toggle a connection to a known Bluetooth device.\n\n*The actions in the action-overview are now draggable. Hold one action down for a second and you can move it around.\n\n*Added the possibility to hide all your disconnected Flics in the main view for a better Flic overview.\n\n*The camera now works behind locked screen.\n\n*Added graphics in the action overview to let our users see what happens in the application when you press the Flic.\n\n*The IFTTT-action now supports tags. This gives our IFTTT-users more options.\n\n<b>1.5.0</b>\n\n*A fix to the Tasker plugin that might break your Tasker configurations.\n\n*Improved battery life. Some users will notice a great change.\n\n*The emails sent from help &amp; feedback are now redirected to the entire android team due to a high amount of mails sent right now. The developers personally take care of all these mail since we find them very important. So keep sending them!\n\n*Fixed a bug where the Flicservice randomly started even tho you exited the application. (Thanks Julius)\n\n*I guess you all noted that all your configurations disappeared in the previous version. All bad things bring something good. We found a nasty bug in our synchronizing algorithm. That is now fixed. And from now on, we won\'t touch your configurations again :).\n\n*Added GCM (Google Cloud Messaging) so we can reach you guys if we have something important to tell. This will not be abused.\n\n*Fixed a visual bug where the footer of the search wizard wasn\'n shown on some devices.\n\n*Continued to fix crashes (we rarely get any at this point. If you find stability issues that doesn\'t generate crashes, please write to us at android@shortcutlabs.com).\n\n*Improved the camera action. A better one will come later.\n\n*Added the option to hide/show your Flics that are not in range. (Thanks Tomer)\n\n<b>1.4.8</b>\n\n*Added this fancy changelog button (thanks Tomer). A very good idea since Play Store doesn\'t allow more than 500 characters. And we thought that you might be interested in what we are up to. We would like your feedback even here. Maybe this changelog is too long/short?\n\n*Removed a visual bug that didn\'t show any status indicator in the main Flic overview screen.\n\n*Fixed the crashes that were reported.\n\n*Removed \"Hour\" from the delay field (who is using that?) when configuring an action, and added milliseconds. Could thank Tomer on this one as well, but I take the honor here.\n\n*Added a \"Rate us\"-prompt (that shouldn\'t be too annoying).\n\n*Finally replaced our error sound, that a few of you might have heard by now. (Thanks Jonathan)\n\n*Improved the Flic click counter. The number of clicks are now stored in the Flic, instead of in the application.\n\n*Shazam action now work with both the free and premium version of the app. (Thanks Hendrik)\n\n*Fixed a bug where the error prompt was shown even when successfully synchronizing Flics to a new device\n\n*LIFX no longer clears/refreshes the devices when you switch network. (Thanks Troy)\n\n*Improved the network switch listener. This will improve all the actions using LAN. (Thanks again Troy)\n\n*Various of other small bug fixes.\n\nThanks to everyone for reporting (and even crashing the app). More features will come. Stay tuned.</string>
 
     <!-- Facebook -->
     <string name="facebook_app_id">535806843198301</string>
@@ -189,9 +169,7 @@
     <string name="activity_button_grabber_not_connected">That Flic appears to not be connected! Please connect it and try again.</string>
     <string name="activity_button_grabber_fail">Failed to grab that Flic.\n\nPlease contact us at <b>support@shortcutlabs.com</b> if the error doesn\'t magically go away.</string>
     <string name="activity_button_grabber_info_title">Flic Grabber</string>
-    <string name="activity_button_grabber_info_text">This page lets you grab a Flic from your account and assign it to another application (the application you
-    came from). When a Flic gets grabbed, it will notify the user as a status icon in the button overview.\n\nTo release it from the application you came from -
-    just click on its status symbol and press \"RELEASE\".</string>
+    <string name="activity_button_grabber_info_text">This page lets you grab a Flic from your account and assign it to another application (the application you came from). When a Flic gets grabbed, it will notify the user as a status icon in the button overview.\n\nTo release it from the application you came from - just click on its status symbol and press \"RELEASE\".</string>
     <string name="activity_button_grabber_grabbing_title">Grabbing Flic</string>
     <string name="activity_button_grabber_grabbing_text">Grabbing Flic&#8230;</string>
     <string name="activity_button_grabber_grabbing_low_revision_title">Contacting Flic server</string>
@@ -269,8 +247,7 @@
 
     <string name="activity_settings_info_error_popups_label">Enable error pop-ups</string>
     <string name="activity_settings_info_error_popups_title">Error Popups</string>
-    <string name="activity_settings_info_error_popups_text">Give you an error as a popup so that you can clearly see what went wrong right away.\n\nThis option could be disturbing
-    if you often trigger actions that has a high fail rate. For example cloud actions on an unstable network.</string>
+    <string name="activity_settings_info_error_popups_text">Give you an error as a popup so that you can clearly see what went wrong right away.\n\nThis option could be disturbing if you often trigger actions that has a high fail rate. For example cloud actions on an unstable network.</string>
 
     <string name="activity_settings_info_notify_error_label">Error notify</string>
     <string name="activity_settings_info_notify_error_title">Error Notify</string>
@@ -282,31 +259,23 @@
 
     <string name="activity_settings_info_foreground_label">Use foreground service</string>
     <string name="activity_settings_info_foreground_title">Foreground Service</string>
-    <string name="activity_settings_info_foreground_text">A foreground service means that the Flic service is very unlikely to get killed when the system wants to free memory. Enabling
-    this option will therefore prioritize Flic before other services and constantly show a notification named \"Flic service\".\n\nDisabling this option will get rid of the notification, but
-    the system will not prioritize the Flic service and this can cause unwanted behaviour in the Flic app.</string>
+    <string name="activity_settings_info_foreground_text">A foreground service means that the Flic service is very unlikely to get killed when the system wants to free memory. Enabling this option will therefore prioritize Flic before other services and constantly show a notification named \"Flic service\".\n\nDisabling this option will get rid of the notification, but the system will not prioritize the Flic service and this can cause unwanted behaviour in the Flic app.</string>
 
     <string name="activity_settings_info_rotation_label">Screen orientation</string>
     <string name="activity_settings_info_rotation_title">Screen Orientation</string>
-    <string name="activity_settings_info_rotation_text">Enter how you want the Flic application to handle different orientations.\n\n<b>Portrait:</b> The Flic app will be locked to
-    have its bottom along the short side (<i>default</i>).\n\n<b>Landscape:</b> The Flic application will be locked to have its bottom along the long side. Works well with
-    tablets.\n\n<b>Sensor:</b> The Flic app uses the sensors of your device to figure out how you are holding it. This will change its orientation in the screens when you rotate
-    your device.</string>
+    <string name="activity_settings_info_rotation_text">Enter how you want the Flic application to handle different orientations.\n\n<b>Portrait:</b> The Flic app will be locked to have its bottom along the short side (<i>default</i>).\n\n<b>Landscape:</b> The Flic application will be locked to have its bottom along the long side. Works well with tablets.\n\n<b>Sensor:</b> The Flic app uses the sensors of your device to figure out how you are holding it. This will change its orientation in the screens when you rotate your device.</string>
 
     <string name="activity_settings_info_bt_label">Show Bluetooth indicator</string>
     <string name="activity_settings_info_bt_title">Bluetooth Indicator</string>
-    <string name="activity_settings_info_bt_text">Enabling this option gives you a (very) visible prompt when your Bluetooth is disabled. Bluetooth is vital for the Flic application to
-    work properly.</string>
+    <string name="activity_settings_info_bt_text">Enabling this option gives you a (very) visible prompt when your Bluetooth is disabled. Bluetooth is vital for the Flic application to work properly.</string>
 
     <string name="activity_settings_info_update_label">Show update indicator</string>
     <string name="activity_settings_info_update_title">Update Indicator</string>
-    <string name="activity_settings_info_update_text">Enabling this option gives you a (very) visible prompt when a update is available. Updates are vital for the Flic application to
-    work properly. (Copy/paste from Bluetooth Indicator popup)</string>
+    <string name="activity_settings_info_update_text">Enabling this option gives you a (very) visible prompt when a update is available. Updates are vital for the Flic application to work properly. (Copy/paste from Bluetooth Indicator popup)</string>
 
     <string name="activity_settings_info_show_all_action_label">Show all content</string>
     <string name="activity_settings_info_show_all_action_title">Show all content</string>
-    <string name="activity_settings_info_show_all_action_text">Some of the actions, providers and partners are useless if you happen to be in the wrong country. Those are hidden for the countries not able
-    to utilize them. Enable this is you want to show all content anyway.</string>
+    <string name="activity_settings_info_show_all_action_text">Some of the actions, providers and partners are useless if you happen to be in the wrong country. Those are hidden for the countries not able to utilize them. Enable this is you want to show all content anyway.</string>
 
     <string name="activity_settings_none">None</string>
     <string name="activity_settings_vibrate">Vibrate</string>
@@ -323,18 +292,14 @@
     <string name="activity_main_default_name">My Flic</string>
     <string name="activity_main_configuration_default_name">My Config</string>
     <string name="activity_main_no_buttons_title">Start using your new Flics</string>
-    <string name="activity_main_no_buttons_buy_more">Don\'t have any Flics yet? Press <a href="https://flic.io?r=webshop/">HERE</a> to go to our webshop!</string>
-    <string name="activity_main_no_buttons_text">1. Tap the add-button in the bottom right corner\n\n2. Click your Flic once and it
-    will appear on your screen\n\n3. Tap the newly added Flic to add your favorite functions to it</string>
+    <string name="activity_main_no_buttons_buy_more">Don\'t have any Flics yet? Press <a href=\"https://flic.io?r=webshop/\">HERE</a> to go to our webshop!</string>
+    <string name="activity_main_no_buttons_text">1. Tap the add-button in the bottom right corner\n\n2. Click your Flic once and it will appear on your screen\n\n3. Tap the newly added Flic to add your favorite functions to it</string>
 
     <string name="activity_main_status_inactive_title">is inactive</string>
-    <string name="activity_main_status_inactive_text">It seems like you added a function to this button, and its provider is inactivated for
-    some reason. You can\'t execute a function without its vital information, and the system therefore put this button into <i>Inactive Mode</i>.\n\nTo
-    configure your providers, press the menu-icon in the upper right corner and choose \"Providers\".\n\n<b>The following functions needs to be corrected:</b></string>
+    <string name="activity_main_status_inactive_text">It seems like you added a function to this button, and its provider is inactivated for some reason. You can\'t execute a function without its vital information, and the system therefore put this button into <i>Inactive Mode</i>.\n\nTo configure your providers, press the menu-icon in the upper right corner and choose \"Providers\".\n\n<b>The following functions needs to be corrected:</b></string>
 
     <string name="activity_main_status_paused_title">is paused</string>
-    <string name="activity_main_status_paused_text">When the button is paused, it won\'t register different click events happening from the Flic application.\n\nTo
-    use its functions, please go into this buttons configure view, by pressing it on the screen, and then tap the play-icon.</string>
+    <string name="activity_main_status_paused_text">When the button is paused, it won\'t register different click events happening from the Flic application.\n\nTo use its functions, please go into this buttons configure view, by pressing it on the screen, and then tap the play-icon.</string>
 
     <string name="activity_main_status_exclusively_paused_title">is exclusively paused</string>
     <string name="activity_main_status_exclusively_paused_text"></string>
@@ -343,18 +308,14 @@
     <string name="activity_main_status_third_party_apps_text"></string>
 
     <string name="activity_main_status_unsynced_title">is locked</string>
-    <string name="activity_main_status_unsynced_text">This button has not been connected to this device yet, or the application has been reinstalled. For your security
-    the Flic application needs a special key to obey your commands, and this key needs to be downloaded to this device.\n\n<b>To unlock your Flic:</b>\n\nPress and hold
-    your Flic for at least 7 seconds and then press \"DOWNLOAD\".\n\nIf that doesn\'t work - try to remove the Flic and add it again through our setup wizard.</string>
+    <string name="activity_main_status_unsynced_text">This button has not been connected to this device yet, or the application has been reinstalled. For your security the Flic application needs a special key to obey your commands, and this key needs to be downloaded to this device.\n\n<b>To unlock your Flic:</b>\n\nPress and hold your Flic for at least 7 seconds and then press \"DOWNLOAD\".\n\nIf that doesn\'t work - try to remove the Flic and add it again through our setup wizard.</string>
     <string name="activity_main_progress_unsynced_title">Downloading key</string>
     <string name="activity_main_progress_unsynced_text">Please stand by&#8230;</string>
     <string name="activity_main_progress_unsynced_failed_title">Key not downloaded</string>
-    <string name="activity_main_progress_unsynced_failed_text">You have to hold the Flic down for at least 7 seconds before pressing download. Also make sure that
-    you have an connection to the Internet.\n\nIf it really doesn\'t work, try removing the Flic and add it again.</string>
+    <string name="activity_main_progress_unsynced_failed_text">You have to hold the Flic down for at least 7 seconds before pressing download. Also make sure that you have an connection to the Internet.\n\nIf it really doesn\'t work, try removing the Flic and add it again.</string>
 
     <string name="activity_main_status_disconnected_title">is manually disconnected</string>
-    <string name="activity_main_status_disconnected_text">This allows the physical Flic to be searchable for other devices, wanting to use it.\n\nIf you
-    want to connect this Flic again, please go into this buttons configure view, by pressing it on the screen, and then tap the connect-icon</string>
+    <string name="activity_main_status_disconnected_text">This allows the physical Flic to be searchable for other devices, wanting to use it.\n\nIf you want to connect this Flic again, please go into this buttons configure view, by pressing it on the screen, and then tap the connect-icon</string>
 
     <string name="activity_main_search_searching_title">Searching for new Flics&#8230;</string>
     <string name="activity_main_search_searching_info_text">Click the Flic you want to add once</string>
@@ -362,31 +323,23 @@
     <string name="activity_main_search_bluetooth_off_title">Bluetooth is OFF</string>
     <string name="activity_main_search_bluetooth_off_main_text">Turn on bluetooth and try again</string>
     <string name="activity_main_search_bluetooth_off_popup_title">Bluetooth is OFF</string>
-    <string name="activity_main_search_bluetooth_off_popup_text">The communication between your device and your Flic is made possible
-    via Bluetooth and is therefore necessary at all times.</string>
+    <string name="activity_main_search_bluetooth_off_popup_text">The communication between your device and your Flic is made possible via Bluetooth and is therefore necessary at all times.</string>
 
     <string name="activity_main_search_no_flics_found_title">Couldn\'t find any flics</string>
     <string name="activity_main_search_no_flics_found_main_text">Make sure your Flic is within reach when you click</string>
     <string name="activity_main_search_no_flics_found_popup_title">Couldn\'t find any flics</string>
-    <string name="activity_main_search_no_flics_found_popup_text">When the app is in search mode, make sure your physical Flic is very close
-    to this device and that you click it once so that it starts broadcasting. You have 10 seconds to do this.\n\nIf you still have
-    trouble finding your new Flic make sure it is in Public Mode. You can enable Public Mode on your Flic by Holding it down for 7 seconds.\n\nIn
-     rare events your device might have a problem. Please try restarting the Bluetooth and/or your device. If that doesn\'t work, feel free to
-    contact us at support@shortcutlabs.com.</string>
+    <string name="activity_main_search_no_flics_found_popup_text">When the app is in search mode, make sure your physical Flic is very close to this device and that you click it once so that it starts broadcasting. You have 10 seconds to do this.\n\nIf you still have trouble finding your new Flic make sure it is in Public Mode. You can enable Public Mode on your Flic by Holding it down for 7 seconds.\n\nIn rare events your device might have a problem. Please try restarting the Bluetooth and/or your device. If that doesn\'t work, feel free to contact us at support@shortcutlabs.com.</string>
 
     <string name="activity_main_search_flic_discovered_title">Found new Flic, connecting&#8230;</string>
     <string name="activity_main_search_flic_discovered_info_text">This can take a few seconds</string>
 
     <string name="activity_main_search_no_connection_title">Couldn\'t connect to Flic</string>
-    <string name="activity_main_search_no_connection_main_text">Something went wrong and a connection to the Flic could not be established.
-    In some rare cases the bluetooth or the device has to be restarted. Try again or contact us at support@shortcutlabs.com</string>
+    <string name="activity_main_search_no_connection_main_text">Something went wrong and a connection to the Flic could not be established. In some rare cases the bluetooth or the device has to be restarted. Try again or contact us at support@shortcutlabs.com</string>
 
     <string name="activity_main_search_private_mode_title">Your Flic is in Private Mode</string>
     <string name="activity_main_search_private_mode_info_text">Click &amp; hold for 6 seconds to unlock it</string>
     <string name="activity_main_search_private_mode_popup_title">Your Flic is in Private Mode</string>
-    <string name="activity_main_search_private_mode_popup_text">This means that your Flic is currently paired with another device. To connect to this Flic you have to unlock it.
-    \n\n\n<b>To unlock your Flic:</b>\n\nPress and hold your Flic for at least 7 seconds and then press \"TRY AGAIN\".
-    </string>
+    <string name="activity_main_search_private_mode_popup_text">This means that your Flic is currently paired with another device. To connect to this Flic you have to unlock it. \n\n\n<b>To unlock your Flic:</b>\n\nPress and hold your Flic for at least 7 seconds and then press \"TRY AGAIN\".</string>
     <string name="activity_main_search_private_mode_popup_try_again">TRY AGAIN</string>
     <string name="activity_main_search_private_mode_popup_cancel">CANCEL</string>
 
@@ -394,9 +347,7 @@
     <string name="activity_main_search_backend_unreachable_title">Couldn\'t reach Flic-server</string>
     <string name="activity_main_search_backend_unreachable_main_text">Make sure you are connected to Internet using WIFI or mobile data and try again</string>
     <string name="activity_main_search_backend_unreachable_popup_title">Couldn\'t reach Flic-server</string>
-    <string name="activity_main_search_backend_unreachable_popup_text">Before you can use a new Flic, it must be verified and unlocked against
-    our servers, which requires an Internet connection.\n\nWhen this is done, all communication between the Flic and this device is made
-    through Bluetooth.</string>
+    <string name="activity_main_search_backend_unreachable_popup_text">Before you can use a new Flic, it must be verified and unlocked against our servers, which requires an Internet connection.\n\nWhen this is done, all communication between the Flic and this device is made through Bluetooth.</string>
 
     <string name="activity_main_search_connection_failed_title">Couldn\'t connect to the Flic</string>
     <string name="activity_main_search_connection_failed_main_text">Make sure the Flic is within reach and that you don\'t have to many Flics on your account.</string>
@@ -404,8 +355,7 @@
     <string name="activity_main_search_bad_user_title">Flic is owned by</string>
     <string name="activity_main_search_bad_user_main_text">If you are the owner of this button, remove it from your other account.</string>
     <string name="activity_main_search_bad_user_popup_title">This Flic is already owned</string>
-    <string name="activity_main_search_bad_user_popup_text">The Flic found by the search wizard is already owned by someone else.\n\nIf someone gave it to you, or if you
-    are trying to connect it to a new account. Make sure that the Flic is removed from its previous account.</string>
+    <string name="activity_main_search_bad_user_popup_text">The Flic found by the search wizard is already owned by someone else.\n\nIf someone gave it to you, or if you are trying to connect it to a new account. Make sure that the Flic is removed from its previous account.</string>
 
     <string name="activity_main_search_connected_title">Connected</string>
     <string name="activity_main_search_connected_info_text">Tap to add Flic</string>
@@ -439,105 +389,56 @@
     <string name="activity_help_and_feedback_get_started_title">Get Started</string>
 
     <string name="activity_help_and_feedback_get_started_item">Get started with Flic</string>
-    <string name="activity_help_and_feedback_get_started_text">Flic is tool for creativity. With it, you can control your phone in many ways but
-    you can also control third party devices through the intelligence in your Phone.\n\nUse this app to set each of your Flics up. In here, you
-    decide what happens when you <b>Click</b>, <b>Double Click</b> or <b>Hold</b> each of your Flics. Be creative and share your creativity with the
-    hashtag <b>#FlicIsHere</b>\n\nHappy Flicing!</string>
+    <string name="activity_help_and_feedback_get_started_text">Flic is tool for creativity. With it, you can control your phone in many ways but you can also control third party devices through the intelligence in your Phone.\n\nUse this app to set each of your Flics up. In here, you decide what happens when you <b>Click</b>, <b>Double Click</b> or <b>Hold</b> each of your Flics. Be creative and share your creativity with the hashtag <b>#FlicIsHere</b>\n\nHappy Flicing!</string>
 
     <string name="activity_help_and_feedback_buy_item">Buy Flics</string>
-    <string name="activity_help_and_feedback_buy_text">You can buy Flics and accessories in the Flic Store. Go to the main view (the button overview) and press the cart in the
-    navigation bar or <a href="https://flic.io?r=0\">click here to go to the online store!</a></string>
+    <string name="activity_help_and_feedback_buy_text">You can buy Flics and accessories in the Flic Store. Go to the main view (the button overview) and press the cart in the navigation bar or <a href=\"https://flic.io?r=0\">click here to go to the online store!</a></string>
     <string name="activity_help_and_feedback_add_item">Add new Flics</string>
-    <string name="activity_help_and_feedback_add_text">If you have a new or an unconnected Flic lying around, you can easily add it to this app.
-    \n\n1. Go to the main screen.\n2. Tap the pink add button in the bottom right corner of the main screen.\n3. Click your new Flic. Your Flic should pulse
-    in red two times.\n4. Tap the image of your new Flic (on the bottom half of the screen).\n\nIf your unconnected Flic does not pulse red when you press
-    it, it may have one of the following causes:\n\n- Your Flic is already connected to this App. When you click the Flic, one of the Flic images in the main
-    screen should bounce.\n\n- Your Flic is connected to another app or device nearby. Try to turn off Bluetooth on your nearby phones and tablets. To be
-    certain, you can bring your Flic at least 150 m (500 ft) from your current location.\n\n- Flic is out of battery. Please change the battery.\n\nIf your
-    Flic does pulsate in red when you click it but you still can\'t connect it, please try the following: \n\n- Make sure that you have an active internet
-    connection.\n\n- Make sure that Bluetooth is activated on your phone or tablet.\n\n- Your Flic may be connected to another device which is not in range.
-    If this is the case, press and hold Flic for at least 7 seconds and try again.\n\n- Make sure that your phone or tablet is bluetooth low energy supported.
-    </string>
+    <string name="activity_help_and_feedback_add_text">If you have a new or an unconnected Flic lying around, you can easily add it to this app. \n\n1. Go to the main screen.\n2. Tap the pink add button in the bottom right corner of the main screen.\n3. Click your new Flic. Your Flic should pulse in red two times.\n4. Tap the image of your new Flic (on the bottom half of the screen).\n\nIf your unconnected Flic does not pulse red when you press it, it may have one of the following causes:\n\n- Your Flic is already connected to this App. When you click the Flic, one of the Flic images in the main screen should bounce.\n\n- Your Flic is connected to another app or device nearby. Try to turn off Bluetooth on your nearby phones and tablets. To be certain, you can bring your Flic at least 150 m (500 ft) from your current location.\n\n- Flic is out of battery. Please change the battery.\n\nIf your Flic does pulsate in red when you click it but you still can\'t connect it, please try the following: \n\n- Make sure that you have an active internet connection.\n\n- Make sure that Bluetooth is activated on your phone or tablet.\n\n- Your Flic may be connected to another device which is not in range. If this is the case, press and hold Flic for at least 7 seconds and try again.\n\n- Make sure that your phone or tablet is bluetooth low energy supported.</string>
 
     <string name="activity_help_and_feedback_add_actions_title">Adding Actions</string>
 
     <string name="activity_help_and_feedback_what_item">What is an Action?</string>
-    <string name="activity_help_and_feedback_what_text">An action is what happens when you click a Flic, e.g. \"Find My Phone\". You can set different
-    <b>actions</b> to happen for the three <b>triggers</b> that Flic supports: click, double click &amp; hold. You can also set multiple actions to
-    happen for each trigger.\n\nYou can also set a delay on specific actions by tapping the clock
-    in the action settings screen.</string>
+    <string name="activity_help_and_feedback_what_text">An action is what happens when you click a Flic, e.g. \"Find My Phone\". You can set different <b>actions</b> to happen for the three <b>triggers</b> that Flic supports: click, double click &amp; hold. You can also set multiple actions to happen for each trigger.\n\nYou can also set a delay on specific actions by tapping the clock in the action settings screen.</string>
 
     <string name="activity_help_and_feedback_setup_item">Set up Actions</string>
-    <string name="activity_help_and_feedback_setup_text">To set up an action:\n\n1. Tap the Flic that you want to configure. \n2. Tap <b>Click</b>,
-    <b>Double Click</b> or <b>Hold</b> \n3. Tap on the action that you want to assign \n4. Configure the action as you want it and tapp the
-    <b>Add Action</b> Button.</string>
+    <string name="activity_help_and_feedback_setup_text">To set up an action:\n\n1. Tap the Flic that you want to configure. \n2. Tap <b>Click</b>, <b>Double Click</b> or <b>Hold</b> \n3. Tap on the action that you want to assign \n4. Configure the action as you want it and tapp the <b>Add Action</b> Button.</string>
 
     <string name="activity_help_and_feedback_how_many_item">How many actions can I have?</string>
-    <string name="activity_help_and_feedback_how_many_text">You can have different actions assigned to each of the three triggers click, double click
-    and hold. There is no limit in how many actions you can assign to each trigger.</string>
+    <string name="activity_help_and_feedback_how_many_text">You can have different actions assigned to each of the three triggers click, double click and hold. There is no limit in how many actions you can assign to each trigger.</string>
 
     <string name="activity_help_and_feedback_control_item">How do I make Flic control other devices?</string>
-    <string name="activity_help_and_feedback_control_text">Flic can control many different third party devices, either directly through this app
-    or through internet services such as IFTTT. If you find the third party device in the list of actions in this app, tap the action to set it
-    up.\n\nIf you can\'t find third party device or program in the list of actions in this application, there is a big chance that IFTTT can do
-    it. Tap The IFTTT action and set up it up.</string>
+    <string name="activity_help_and_feedback_control_text">Flic can control many different third party devices, either directly through this app or through internet services such as IFTTT. If you find the third party device in the list of actions in this app, tap the action to set it up.\n\nIf you can\'t find third party device or program in the list of actions in this application, there is a big chance that IFTTT can do it. Tap The IFTTT action and set up it up.</string>
 
     <string name="activity_help_and_feedback_share_title">Share Flic</string>
 
     <string name="activity_help_and_feedback_share_item">How do I share my Flic?</string>
-    <string name="activity_help_and_feedback_share_text"><i>You can share your Flics in two ways.</i>\n\n<b>Share Flic and all settings with another device or
-    person </b>\n\nYou can share Flic with other devices and people so that Flic does the same thing on
-    the other device as you set it up to do. This way, you own control of the Flic and you have control of what it can do, but it will work through
-    another device (phone or tablet) when yours is not in proximity. \n\n<b>Share Flic with another device </b>\n\nYou can Share Flic so it works on
-    more devices than your own but so that it works differently on each device. To achieve this:\n\n1. Turn off Bluetooth on the device that is already
-    connected to your Flic\n2. Make sure that Flic pulses in red when you click it.\n3. Press and hold down Flic for at least 7 seconds.\n4. Connect
-    Flic to the other device and configure it\'s settings on that device.\n\nFlic will now operate on the device it is currently connected to. Flic will
-    connect to the first device it can and cannot operate on more than one device simultaneously.</string>
+    <string name="activity_help_and_feedback_share_text"><i>You can share your Flics in two ways.</i>\n\n<b>Share Flic and all settings with another device or person </b>\n\nYou can share Flic with other devices and people so that Flic does the same thing on the other device as you set it up to do. This way, you own control of the Flic and you have control of what it can do, but it will work through another device (phone or tablet) when yours is not in proximity. \n\n<b>Share Flic with another device </b>\n\nYou can Share Flic so it works on more devices than your own but so that it works differently on each device. To achieve this:\n\n1. Turn off Bluetooth on the device that is already connected to your Flic\n2. Make sure that Flic pulses in red when you click it.\n3. Press and hold down Flic for at least 7 seconds.\n4. Connect Flic to the other device and configure it\'s settings on that device.\n\nFlic will now operate on the device it is currently connected to. Flic will connect to the first device it can and cannot operate on more than one device simultaneously.</string>
 
 
     <string name="activity_help_and_feedback_more_devices_item">Use Flic with more than one phone/tablet</string>
-   <string name="activity_help_and_feedback_more_devices_text">Flic can be used with all the devices that has the Flic application available. To
-   avoid that other devices, that you might not even know, listens for your Flic. Flic will be paired with one device and only send information
-   to this one device. That also means that two devices can\'t listen for one button at the same time.\n\nHowever, you can share the Flic with
-   other devices. This basically means that the Flic will trigger the function(s) on the first of its paired devices it finds. To find out
-   how to do this, please read the "Share"-section.</string>
+   <string name="activity_help_and_feedback_more_devices_text">Flic can be used with all the devices that has the Flic application available. To avoid that other devices, that you might not even know, listens for your Flic. Flic will be paired with one device and only send information to this one device. That also means that two devices can\'t listen for one button at the same time.\n\nHowever, you can share the Flic with other devices. This basically means that the Flic will trigger the function(s) on the first of its paired devices it finds. To find out how to do this, please read the \"Share\"-section.</string>
 
 
     <string name="activity_help_and_feedback_control_title">Get out as much as possible from Flic</string>
 
     <string name="activity_help_and_feedback_how_many_flics_item">How many Flics can I connect to one device?</string>
-   <string name="activity_help_and_feedback_how_many_flics_text">This variates some depending on what device you are running. On most Android-devices, you can
-   connect up to 8 Flics to one device. This number is in most cases not a hardware limit. Instead is it just set in different devices
-   to make sure that the signals don\'t interfere. Also, the number is increasing continuously.</string>
+   <string name="activity_help_and_feedback_how_many_flics_text">This variates some depending on what device you are running. On most Android-devices, you can connect up to 8 Flics to one device. This number is in most cases not a hardware limit. Instead is it just set in different devices to make sure that the signals don\'t interfere. Also, the number is increasing continuously.</string>
 
     <string name="activity_help_and_feedback_access_item">Access a Flic that you had connected to another device</string>
-   <string name="activity_help_and_feedback_access_text"><i>This depends on if you are trying to access the Flic from the same Flic-account or not.</i>
-   \n\nIf you are trying to connect it to <b>the same</b> account again on a different device, your Flic needs to whitelist the new device. 
-   Basically telling the Flic to trust this device as well. To do this you need to hold down the Flic for <i>7</i> seconds while it is not
-   connected to another device. The Flic should blink and then slowly fade out during this time. When this is done it will be ready to connect to
-   the next device it finds.\n\nIf you are trying to connect it to <b>another</b> account, the Flic backend will reject this request since
-   you are not the owner of the button. You hereby have two choices. Either the owner removes the button from his/her account, telling the
-   Flic backend that it is no longer in his/hers possession The other option is to simply log in into the owners account and share the button
-   to the Flic account of the person wanting to use it. Read more under the "Share"-section.</string>
+   <string name="activity_help_and_feedback_access_text"><i>This depends on if you are trying to access the Flic from the same Flic-account or not.</i> \n\nIf you are trying to connect it to <b>the same</b> account again on a different device, your Flic needs to whitelist the new device. Basically telling the Flic to trust this device as well. To do this you need to hold down the Flic for <i>7</i> seconds while it is not connected to another device. The Flic should blink and then slowly fade out during this time. When this is done it will be ready to connect to the next device it finds.\n\nIf you are trying to connect it to <b>another</b> account, the Flic backend will reject this request since you are not the owner of the button. You hereby have two choices. Either the owner removes the button from his/her account, telling the Flic backend that it is no longer in his/hers possession The other option is to simply log in into the owners account and share the button to the Flic account of the person wanting to use it. Read more under the \"Share\"-section.</string>
 
     <string name="activity_help_and_feedback_range_item">What is the range of my Flics?</string>
-   <string name="activity_help_and_feedback_range_text">In open spaces, the range is around 30 to 50 meters. But this can variate greatly depending
-   on how the (if there are any) walls are formed, other interfering devices, items that block the signals and a lot of other stuff. To find out
-   what range the Flic has in the environment where you are going to use it, the best way is to simply test for yourself. If the Flic is reliably
-   connected, you found a good spot to place the Flic.</string>
+   <string name="activity_help_and_feedback_range_text">In open spaces, the range is around 30 to 50 meters. But this can variate greatly depending on how the (if there are any) walls are formed, other interfering devices, items that block the signals and a lot of other stuff. To find out what range the Flic has in the environment where you are going to use it, the best way is to simply test for yourself. If the Flic is reliably connected, you found a good spot to place the Flic.</string>
 
 
     <string name="activity_help_and_feedback_account_title">Account</string>
 
     <string name="activity_help_and_feedback_sign_in_out_item">Sign in and out</string>
-   <string name="activity_help_and_feedback_sign_in_out_text">All your buttons, providers and action configuration will automatically be 
-   synchronized with our Flic backend. This means that you safely can log out from a device and when you log back in, all configuration will
-    be restored. It also means that if you log into another device with your account. All your configuration will appear there as well.</string>
+   <string name="activity_help_and_feedback_sign_in_out_text">All your buttons, providers and action configuration will automatically be synchronized with our Flic backend. This means that you safely can log out from a device and when you log back in, all configuration will be restored. It also means that if you log into another device with your account. All your configuration will appear there as well.</string>
 
     <string name="activity_help_and_feedback_change_password_item">Change your password</string>
-   <string name="activity_help_and_feedback_change_password_text">Your password can be changed in the settings-view. To get there simply press the menu-icon in 
-   the upper right and pick "Settings". If you have forgotten your password, sign out from your account and press "Forgot password?" under the 
-   "log in"-screen. This will send an email to your inbox with intructions on how to how restore your password.</string>
+   <string name="activity_help_and_feedback_change_password_text">Your password can be changed in the settings-view. To get there simply press the menu-icon in the upper right and pick \"Settings\". If you have forgotten your password, sign out from your account and press \"Forgot password?\" under the \"log in\"-screen. This will send an email to your inbox with intructions on how to how restore your password.</string>
     <!-- Fields -->
 
     <!-- fields.DoubleInputFieldWrapper -->
@@ -604,8 +505,7 @@
     <string name="global_bluetooth_title">Turn on Bluetooth</string>
     <string name="global_turn_on_bluetooth">Do you want to turn on your bluetooth?</string>
     <string name="global_update_title">Update available</string>
-    <string name="global_update_text">A new update is available on Play Store. Updates are essential for you application to work properly.\n\nPress \"PLAY STORE\" to go to
-    Play Store and update the Flic application.</string>
+    <string name="global_update_text">A new update is available on Play Store. Updates are essential for you application to work properly.\n\nPress \"PLAY STORE\" to go to Play Store and update the Flic application.</string>
     <string name="global_update_ok">PLAY STORE</string>
     <string name="global_update_no">NOT NOW</string>
     <string name="global_provider">provider</string>
@@ -643,9 +543,7 @@
     <string name="field_light_color_info_random_individual">Individual</string>
     <string name="field_light_color_info_random_group">Group</string>
     <string name="field_light_color_info_random_global">Global</string>
-    <string name="field_light_color_info_text">How would you like your random color to work?\n\n<b>Individual:</b> Assign a different random color to each device checked.\n\n<b>Group:</b>
-    Assign one random color that will be assign to all checked devices.\n\n<b>Global:</b> Get a random color generated for the entire action chain. Other actions using this mode will
-    have the same random color.</string>
+    <string name="field_light_color_info_text">How would you like your random color to work?\n\n<b>Individual:</b> Assign a different random color to each device checked.\n\n<b>Group:</b> Assign one random color that will be assign to all checked devices.\n\n<b>Global:</b> Get a random color generated for the entire action chain. Other actions using this mode will have the same random color.</string>
 
     <!-- fields.SpotifyFieldWrapper -->
     <string name="field_spotify_mode_play_track">Track</string>
@@ -671,8 +569,7 @@
     <!-- LIFX -->
     <string name="provider_lifx_name">LIFX</string>
     <string name="provider_lifx_description">LIFX provider</string>
-    <string name="provider_lifx_read_more_text">Time for some LIFX Flicin\’! It’s really simple to get things going. Just sign in using your
-    LIFX account and your bulb(s) should come out in the list below. Select which bulb(s) you want to connect to Flic, and voila you\’re done! Easy!</string>
+    <string name="provider_lifx_read_more_text">Time for some LIFX Flicin\’! It’s really simple to get things going. Just sign in using your LIFX account and your bulb(s) should come out in the list below. Select which bulb(s) you want to connect to Flic, and voila you\’re done! Easy!</string>
     <string name="provider_lifx_search_text">Search LIFX bulbs</string>
     <string name="provider_lifx_inactivated_text">You need to add a LIFX bulb to use this function</string>
     <string name="provider_lifx_inactivated_button_text">ADD BULB</string>
@@ -684,9 +581,7 @@
     <!-- Lightify -->
     <string name="provider_lightify_name">Lightify</string>
     <string name="provider_lightify_description">Lightify provider</string>
-    <string name="provider_lightify_read_more_text">Welcome to Osrams\' Lightify! To login to this provider, 3 variables are needed:\n\n<b>Username:</b> This is the
-    email you registered with.\n\n<b>Password:</b> Obviously your password for that email.\n\n<b>Serial number:</b> On the back of your gateway you have something
-    called S/N (Serial Number). Type what it says (all the characters).</string>
+    <string name="provider_lightify_read_more_text">Welcome to Osrams\' Lightify! To login to this provider, 3 variables are needed:\n\n<b>Username:</b> This is the email you registered with.\n\n<b>Password:</b> Obviously your password for that email.\n\n<b>Serial number:</b> On the back of your gateway you have something called S/N (Serial Number). Type what it says (all the characters).</string>
     <string name="provider_lightify_search_text">Search Lightify bulbs</string>
     <string name="provider_lightify_inactivated_text">You need to add a Lightify bulb to use this function</string>
     <string name="provider_lightify_inactivated_button_text">ADD BULB</string>
@@ -700,8 +595,7 @@
     <string name="provider_lightify_login_progress_title">Contacting Osram</string>
     <string name="provider_lightify_login_progress_text">Logging in...</string>
     <string name="provider_lightify_login_error_title">Unable to log in</string>
-    <string name="provider_lightify_login_error_text">Make sure you are connected to the Internet and that your credentials are correctly typed.
-    If you are unsure about your credentials - press the info icon in the upper right.</string>
+    <string name="provider_lightify_login_error_text">Make sure you are connected to the Internet and that your credentials are correctly typed. If you are unsure about your credentials - press the info icon in the upper right.</string>
 
     <!-- SLACK -->
     <string name="provider_slack_name">Slack</string>
@@ -740,8 +634,7 @@
     <string name="provider_eon_mode_one">smartplug</string>
     <string name="provider_eon_mode_multiple">smartplugs</string>
     <string name="provider_eon_required">Nödvändig</string>
-    <string name="provider_eon_login_read_more">Här använder du samma inloggningsuppgifter som på eon.se/minasidor. Har du aldrig loggat in där? Skapa först ett användarkonto
-    på eon.se med hjälp av ditt kundnummer som finns på din elfaktura.</string>
+    <string name="provider_eon_login_read_more">Här använder du samma inloggningsuppgifter som på eon.se/minasidor. Har du aldrig loggat in där? Skapa först ett användarkonto på eon.se med hjälp av ditt kundnummer som finns på din elfaktura.</string>
 
     <!-- WeMo -->
     <string name="provider_wemo_name">WeMo</string>
@@ -753,30 +646,19 @@
     <string name="provider_wemo_mode_off">Turn off&#160;</string>
     <string name="provider_wemo_mode_toggle">Toggle&#160;</string>
     <string name="provider_wemo_mode_multiple">multiple devices</string>
-    <string name="provider_wemo_read_more_text">To integrate WeMo switches inside of the Flic application, download the official WeMo-application and setup your switches from
-    there. Once you get your switches to work with their applicatoin - simply go to this view and press the refresh button and the switches will be listed here as well.\n\nKeep
-    in mind that the Flic application is using the switches found on your local area network. That means that you have to be connected to the same network as your WeMo-switches to
-    get the switches to work. If you want to trigger them over the cloud - use the IFTTT-action in the Flic application.</string>
+    <string name="provider_wemo_read_more_text">To integrate WeMo switches inside of the Flic application, download the official WeMo-application and setup your switches from there. Once you get your switches to work with their applicatoin - simply go to this view and press the refresh button and the switches will be listed here as well.\n\nKeep in mind that the Flic application is using the switches found on your local area network. That means that you have to be connected to the same network as your WeMo-switches to get the switches to work. If you want to trigger them over the cloud - use the IFTTT-action in the Flic application.</string>
     <string name="provider_wemo_search_text">Search for WeMo devices</string>
     <string name="provider_wemo_inactivated_text">You need to add a WeMo device to use this function</string>
     <string name="provider_wemo_inactivated_button_text">ADD DEVICE</string>
 
     <!-- Yo -->
-    <string name="provider_yo_read_more_text">This provider is a bit complicated to set up, but if you follow the steps, you should be alright. :)
-    \n\n1. The first thing you need to do is to open <a href="https://dev.justyo.co/">dev.justyo.co</a> in your Internet browser.
-    \n\n2. Next log in to this site using your username and passcode.
-    \n\n3. To the right of the white key-icon you will see your API-token. Copy this key and paste it to the input field.</string>
+    <string name="provider_yo_read_more_text">This provider is a bit complicated to set up, but if you follow the steps, you should be alright. :) \n\n1. The first thing you need to do is to open <a href=\"https://dev.justyo.co/\">dev.justyo.co</a> in your Internet browser. \n\n2. Next log in to this site using your username and passcode. \n\n3. To the right of the white key-icon you will see your API-token. Copy this key and paste it to the input field.</string>
     <string name="provider_yo_token_text">Write your API-token (press the info-icon if unsure)</string>
     <string name="provider_yo_inactivated_text">No Yo-account found</string>
     <string name="provider_yo_inactivated_button_text">ADD ACCOUNT</string>
 
     <!-- Philips Hue -->
-    <string name="provider_philips_hue_read_more_text">If you have come here, you are probably here for the Philips Hue lights, right?
-    Ok, perfect, let\'s set it up then. There is a big search button in the top of this view. Press this to start a search. If a Philips
-    Hue hub is found, it will be listed right below the search button. Simply tap it to connect, and the lights connected to this hub
-    will appear below it.\n\n<b>NOTE THAT:</b> Your Philips Hue hub needs to be connected to the same network as this
-    device.\n\n<b>ALSO NOTE THAT:</b> If you need configurations of your hub and lights, please download the official Philips Hue app
-    and configure everything from there.</string>
+    <string name="provider_philips_hue_read_more_text">If you have come here, you are probably here for the Philips Hue lights, right? Ok, perfect, let\'s set it up then. There is a big search button in the top of this view. Press this to start a search. If a Philips Hue hub is found, it will be listed right below the search button. Simply tap it to connect, and the lights connected to this hub will appear below it.\n\n<b>NOTE THAT:</b> Your Philips Hue hub needs to be connected to the same network as this device.\n\n<b>ALSO NOTE THAT:</b> If you need configurations of your hub and lights, please download the official Philips Hue app and configure everything from there.</string>
     <string name="provider_philips_hue_search">Search for Hubs</string>
     <string name="provider_philips_hue_search_text">Search for bridges</string>
     <string name="provider_philips_hue_search_progress">Searching&#8230;</string>
@@ -824,8 +706,7 @@
     <string name="provider_facebook_description">Facebook provider</string>
 
     <!-- Google -->
-    <string name="provider_google_read_more_text">The log in-button will take you to another view that logs you in to your Google account. If a google account
-    is already set up on your device, it will log in to this account automatically. </string>
+    <string name="provider_google_read_more_text">The log in-button will take you to another view that logs you in to your Google account. If a google account is already set up on your device, it will log in to this account automatically.</string>
     <string name="provider_google_search_text">Search for google Hubs</string>
     <string name="provider_google_unauthorized_description">To use certain functions, please sign in.</string>
     <string name="provider_google_unauthorized_button_description">LOG IN</string>
@@ -836,10 +717,7 @@
 
     <!-- Harmony -->
     <string name="provider_harmony_name">Harmony</string>
-    <string name="provider_harmony_read_more_text">Harmony Hub is really easy to setup! Just press log in and sign in using your
-    account information. Your Hub(s) should then show in the list below and we use the lovely cloud to access your list of actions
-    defined in your Harmony Hub app! \n\n<b>NOTE THAT:</b> To setup actions for Harmony Hub you need to use your Harmony Hub app.
-    From here you then simply choose which pre-defined actions to Flic! :) </string>
+    <string name="provider_harmony_read_more_text">Harmony Hub is really easy to setup! Just press log in and sign in using your account information. Your Hub(s) should then show in the list below and we use the lovely cloud to access your list of actions defined in your Harmony Hub app! \n\n<b>NOTE THAT:</b> To setup actions for Harmony Hub you need to use your Harmony Hub app. From here you then simply choose which pre-defined actions to Flic! :)</string>
     <string name="provider_harmony_search_text">Search for Harmony Hubs</string>
     <string name="provider_harmony_inactivated_text">You need to find a Harmony Hub with at least one configured activity before you can use this function</string>
     <string name="provider_harmony_inactivated_button_text">FIND HUBS</string>
@@ -885,18 +763,14 @@
     <string name="provider_runkeeper_authorized_button_description">LOG OUT</string>
 
     <!-- Sonos -->
-    <string name="provider_sonos_read_more_text">This provider will search your local area network for configured Sonos speakers. To find them,
-    they first need to be set up and configured with your Sonos application. When this is done, simply tap the refresh button and the speakers will
-    appear in a list below it.\n\n<b>IF YOUR SONOS IS NOT FOUND:</b> This happens sometimes, and the solution is to go to the network where your Sonos speakers are configured
-    and restart your Flic app (menu -> exit). Once they are successfully found they will be stored in the Flic app so this step doesn\'t need to be repeated.</string>
+    <string name="provider_sonos_read_more_text">This provider will search your local area network for configured Sonos speakers. To find them, they first need to be set up and configured with your Sonos application. When this is done, simply tap the refresh button and the speakers will appear in a list below it.\n\n<b>IF YOUR SONOS IS NOT FOUND:</b> This happens sometimes, and the solution is to go to the network where your Sonos speakers are configured and restart your Flic app (menu -> exit). Once they are successfully found they will be stored in the Flic app so this step doesn\'t need to be repeated.</string>
     <string name="provider_sonos_save_button">SAVE</string>
     <string name="provider_sonos_search_text">Refresh</string>
     <string name="provider_sonos_inactivated_text">You need to add a Sonos speaker</string>
     <string name="provider_sonos_inactivated_button_text">ADD SPEAKER</string>
 
     <!-- Skype -->
-    <string name="provider_skype_read_more_text">Skype isn\'t really much to configure. The only thing you need to do is to download it, either by yourself going to Play store or just
-    press that nifty little pink botton that says \"INSTALL SKYPE\" (thanks for the direct link, Philip).</string>
+    <string name="provider_skype_read_more_text">Skype isn\'t really much to configure. The only thing you need to do is to download it, either by yourself going to Play store or just press that nifty little pink botton that says \"INSTALL SKYPE\" (thanks for the direct link, Philip).</string>
     <string name="provider_skype_inactivated_text">Skype needs to be configured before you can use it.</string>
     <string name="provider_skype_inactivated_button_text">CONFIGURE</string>
     <string name="provider_skype_no_application_description">In order to enable this provider, the Skype application needs to be installed</string>
@@ -904,8 +778,7 @@
     <string name="provider_skype_authed">Skype provider is configured.</string>
 
     <!-- Shazam -->
-    <string name="provider_shazam_read_more_text">Shazam isn\'t really much to configure. The only thing you need to do is to download it, either by yourself going to Play store or just
-    press that nifty little pink botton that says \"INSTALL SHAZAM\".</string>
+    <string name="provider_shazam_read_more_text">Shazam isn\'t really much to configure. The only thing you need to do is to download it, either by yourself going to Play store or just press that nifty little pink botton that says \"INSTALL SHAZAM\".</string>
     <string name="provider_shazam_inactivated_text">Shazam needs to be configured before you can use it.</string>
     <string name="provider_shazam_inactivated_button_text">CONFIGURE</string>
     <string name="provider_shazam_no_application_description">In order to enable this provider, the Shazam application needs to be installed</string>
@@ -915,23 +788,18 @@
     <!-- Config -->
     <string name="provider_config_name">Configs</string>
     <string name="provider_config_create_new_button">Create New Config</string>
-    <string name="provider_config_read_more_text">Here you can create preset configurations. It can be used in many ways, for example:\n\n<b>DIFFERENT PROFILES:</b> Having a Flic with you
-    that should work differently depending on where you are? Just load a new configuration, and you don\'t have to set up every action again one by one.\n\n<b>POWERFUL COMBINATIONS:</b> This
-    is for you that don\'t want the same thing to happen every time you press your Flic.\n\nSet up your Flic to change your LIFX color to red, then add an action to change its configuration.
-    Next time you press it, the action chain says that the color should be green. Only your imagination sets the limits.</string>
+    <string name="provider_config_read_more_text">Here you can create preset configurations. It can be used in many ways, for example:\n\n<b>DIFFERENT PROFILES:</b> Having a Flic with you that should work differently depending on where you are? Just load a new configuration, and you don\'t have to set up every action again one by one.\n\n<b>POWERFUL COMBINATIONS:</b> This is for you that don\'t want the same thing to happen every time you press your Flic.\n\nSet up your Flic to change your LIFX color to red, then add an action to change its configuration. Next time you press it, the action chain says that the color should be green. Only your imagination sets the limits.</string>
     <string name="provider_config_inactivated_text">You need to add at least one configuration before you can use this action.</string>
     <string name="provider_config_inactivated_button_text">ADD</string>
 
     <!-- tasker -->
-    <string name="provider_tasker_read_more_text">Tasker doesn\'t get fired from this application. Instead you go to your Tasker application and find Flic from plugins. The plugin comes
-    with this application.</string>
+    <string name="provider_tasker_read_more_text">Tasker doesn\'t get fired from this application. Instead you go to your Tasker application and find Flic from plugins. The plugin comes with this application.</string>
     <string name="provider_tasker_no_application_description">In order to enable this provider, the Tasker application needs to be installed</string>
     <string name="provider_tasker_no_application_button_description">INSTALL TASKER</string>
     <string name="provider_tasker_authed">Tasker provider is configured.</string>
 
     <!-- waze -->
-    <string name="provider_waze_read_more_text">Waze isn\'t really much to configure. The only thing you need to do is to download it, either by yourself going to Play store or just
-    press that nifty little pink botton that says \"INSTALL WAZE\".</string>
+    <string name="provider_waze_read_more_text">Waze isn\'t really much to configure. The only thing you need to do is to download it, either by yourself going to Play store or just press that nifty little pink botton that says \"INSTALL WAZE\".</string>
     <string name="provider_waze_inactivated_text">Waze needs to be configured before you can use it.</string>
     <string name="provider_waze_inactivated_button_text">CONFIGURE</string>
     <string name="provider_waze_no_application_description">In order to enable this provider, the Waze application needs to be installed</string>
@@ -939,8 +807,7 @@
     <string name="provider_waze_authed">Waze provider is configured.</string>
 
     <!-- ur -->
-    <string name="provider_ur_read_more_text">Unified Remote isn\'t really much to configure. The only thing you need to do is to download it, either by yourself going to Play store or just
-    press that nifty little pink botton that says \"INSTALL\".</string>
+    <string name="provider_ur_read_more_text">Unified Remote isn\'t really much to configure. The only thing you need to do is to download it, either by yourself going to Play store or just press that nifty little pink botton that says \"INSTALL\".</string>
     <string name="provider_ur_inactivated_text">Unified Remote needs to be configured before you can use it.</string>
     <string name="provider_ur_inactivated_button_text">CONFIGURE</string>
     <string name="provider_ur_no_application_description">In order to enable this provider, the Unified Remote application needs to be installed</string>
@@ -948,11 +815,9 @@
     <string name="provider_ur_authed">Unified Remote provider is configured.</string>
 
     <!-- Spotify -->
-    <string name="provider_spotify_read_more_text">To set up Flic with Spotify, you first of all need the Spotify application on the device using it. You also need to log in to
-    your Spotify-account in the Flic app to let us show you your playlists and telling us to which account your saved tracks should be saved to.</string>
+    <string name="provider_spotify_read_more_text">To set up Flic with Spotify, you first of all need the Spotify application on the device using it. You also need to log in to your Spotify-account in the Flic app to let us show you your playlists and telling us to which account your saved tracks should be saved to.</string>
     <string name="provider_spotify_inactivated_text">You need to set up an Spotify account to use this function</string>
-    <string name="provider_spotify_read_more">To use Spotify with Flic, you need to have the Spotify app installed on the phone. Once done,
-    sign in with your Spotify account and you\’re all set! </string>
+    <string name="provider_spotify_read_more">To use Spotify with Flic, you need to have the Spotify app installed on the phone. Once done, sign in with your Spotify account and you\’re all set!</string>
     <string name="provider_spotify_inactivated_button_text">ADD ACCOUNT</string>
     <string name="provider_spotify_unauthorized_description">To enable this provider, you need to log in with your Spotify account</string>
     <string name="provider_spotify_unauthorized_button_description">LOG IN</string>
@@ -965,8 +830,7 @@
 
     <!-- Uber -->
     <string name="provider_uber_inactivated_text">You need to set up an Uber account to use this function</string>
-    <string name="provider_uber_read_more">To use Uber with Flic, you need to have the Uber app installed on the phone. Once done,
-    sign in with your Uber account and you\’re all set! Woohoo! </string>
+    <string name="provider_uber_read_more">To use Uber with Flic, you need to have the Uber app installed on the phone. Once done, sign in with your Uber account and you\’re all set! Woohoo!</string>
     <string name="provider_uber_inactivated_button_text">ADD ACCOUNT</string>
     <string name="provider_uber_unauthorized_description">To enable this provider, you need to log in with your Uber account</string>
     <string name="provider_uber_unauthorized_button_description">LOG IN</string>
@@ -977,7 +841,7 @@
     <string name="provider_uber_logged_in">Successfully logged in as&#160;</string>
 
     <string name="pick_action_activity_unavailabe">This function needs you to enable the&#160;</string>
-    <string name="pick_action_activity_unavailabe_2">-provider before you can use it. </string>
+    <string name="pick_action_activity_unavailabe_2">-provider before you can use it.</string>
     <string name="pick_action_activity_tab_popular">POPULAR</string>
     <string name="pick_action_activity_tab_alphabetic">ALPHABETIC</string>
     <string name="pick_action_activity_tab_recent">RECENT</string>
@@ -1032,46 +896,31 @@
     <string name="popup_download">DOWNLOAD</string>
 
     <string name="popup_info_delay_title">Have you noticed the Delay-button?</string>
-    <string name="popup_info_delay_text">Did you know you can delay an action before it is triggered?\n\nEg. 1. Turn on LIFX light\n\n2. Turn
-    off Lifx light (Delay 30 min)\n\nThe delay option is available by pressing the clock-icon in the navigation bar.</string>
+    <string name="popup_info_delay_text">Did you know you can delay an action before it is triggered?\n\nEg. 1. Turn on LIFX light\n\n2. Turn off Lifx light (Delay 30 min)\n\nThe delay option is available by pressing the clock-icon in the navigation bar.</string>
 
     <string name="popup_m_ab_title">Firmware Update needed</string>
-    <string name="popup_m_ab_text">Unfortunately this Flic can\'t connect to this version of Android due to a bug in our component supplier\'s Bluetooth Low Energy
-    stack (code). You may try to use an iOS device or another Android device using version 4.4 up to 5.1.1 in order to update your Flic\'s firmware before using it
-    with your device. As this affects millions of devices and not only Flic, this issue needs to be fixed on Android. Google have released a patch (6.0.1) and it should reach
-    all of you soon. Sign up on our newsletter on Flic.io to get the latest news.</string>
+    <string name="popup_m_ab_text">Unfortunately this Flic can\'t connect to this version of Android due to a bug in our component supplier\'s Bluetooth Low Energy stack (code). You may try to use an iOS device or another Android device using version 4.4 up to 5.1.1 in order to update your Flic\'s firmware before using it with your device. As this affects millions of devices and not only Flic, this issue needs to be fixed on Android. Google have released a patch (6.0.1) and it should reach all of you soon. Sign up on our newsletter on Flic.io to get the latest news.</string>
 
     <string name="popup_m_aa_title">Currently Incompatible</string>
-    <string name="popup_m_aa_text">Unfortunately this Flic is currently incompatible with this version of Android due to a bug in our component supplier\'s
-    Bluetooth Low Energy stack (code). To get it working, you need at least Android version 6.0.1.</string>
+    <string name="popup_m_aa_text">Unfortunately this Flic is currently incompatible with this version of Android due to a bug in our component supplier\'s Bluetooth Low Energy stack (code). To get it working, you need at least Android version 6.0.1.</string>
 
     <string name="popup_update_asap_title">Crucial Firmware Update Needed</string>
-    <string name="popup_update_asap_text">This Flic will become incompatible with your device if you upgrade to a newer version of Android.\n\nIn
-    order to keep your Flic alive please update your Flic(s) firmware as soon as possible. Make sure you have an active internet connection while updating.</string>
+    <string name="popup_update_asap_text">This Flic will become incompatible with your device if you upgrade to a newer version of Android.\n\nIn order to keep your Flic alive please update your Flic(s) firmware as soon as possible. Make sure you have an active internet connection while updating.</string>
 
     <string name="popup_many_flics_title">High Flic Usage</string>
-    <string name="popup_many_flics_text">Hi there friend, we are very happy that you like Flic and that you have many Flics connected!:)\n\nKeep in mind that there is a
-    restriction in how many Bluetooth Low Energy-products you can have connected at once. Currently most devices has hard coded this limitation to 7 or 8 active
-    BLE-products. It should be possible to use all your products, as long as they all are not connected at once, but a good result can not be guaranteed. If you start to
-    notice a worse experience - Keep in mind that this limit exists and you may have to disconnect some devices.</string>
+    <string name="popup_many_flics_text">Hi there friend, we are very happy that you like Flic and that you have many Flics connected!:)\n\nKeep in mind that there is a restriction in how many Bluetooth Low Energy-products you can have connected at once. Currently most devices has hard coded this limitation to 7 or 8 active BLE-products. It should be possible to use all your products, as long as they all are not connected at once, but a good result can not be guaranteed. If you start to notice a worse experience - Keep in mind that this limit exists and you may have to disconnect some devices.</string>
 
     <string name="popup_action_not_saved_title">Action not saved</string>
     <string name="popup_action_not_saved_text">Are you sure you want to discard your current changes?</string>
 
     <string name="popup_status_icon_showing_title">A Status Icon Is Showing</string>
-    <string name="popup_status_icon_showing_text">Look at that - Somebody got a status icon! The status icons can be identified as colorful circles around your Flic, and this is
-    the way your Flic speaks to you. It will provide you with all the information that the Flic want to share with you. It could be everything from bad news - \"Your action
-    configuration is not working\" - to neutral news - \"I am paused\" - to good news - \"Yaay, I can be upgraded\".\n\nTo find out what that particular status icon means - just press
-    the icon!</string>
+    <string name="popup_status_icon_showing_text">Look at that - Somebody got a status icon! The status icons can be identified as colorful circles around your Flic, and this is the way your Flic speaks to you. It will provide you with all the information that the Flic want to share with you. It could be everything from bad news - \"Your action configuration is not working\" - to neutral news - \"I am paused\" - to good news - \"Yaay, I can be upgraded\".\n\nTo find out what that particular status icon means - just press the icon!</string>
 
     <string name="popup_flic_resumed_title">Caution!</string>
-    <string name="popup_flic_resumed_text">Your Flic will not be paused - either in the Flic application or in any other third party app just because you add a listener in
-    this third party application. The third party application has control over the Flic state. To find out what state your Flic is in, go to Flic main screen and look at (tap)
-    its status symbols.</string>
+    <string name="popup_flic_resumed_text">Your Flic will not be paused - either in the Flic application or in any other third party app just because you add a listener in this third party application. The third party application has control over the Flic state. To find out what state your Flic is in, go to Flic main screen and look at (tap) its status symbols.</string>
 
     <string name="popup_partner_report_title">Report</string>
-    <string name="popup_partner_report_text">Did you find that our partner wasn\'t what they said they were? Please fill out the form and we will have a look at it as
-    soon as possible.</string>
+    <string name="popup_partner_report_text">Did you find that our partner wasn\'t what they said they were? Please fill out the form and we will have a look at it as soon as possible.</string>
     <string name="popup_partner_report_report">REPORT</string>
     <string name="popup_partner_report_cancel">CANCEL</string>
     <string name="popup_partner_report_category_label">Report Category</string>
@@ -1089,8 +938,7 @@
 
 
     <string name="popup_pause_title">Pause Flic</string>
-    <string name="popup_pause_text">Your Flic won\'t respond to any clicks until you unpause it.\n\nAll actions and settings
-     will stay as they are.</string>
+    <string name="popup_pause_text">Your Flic won\'t respond to any clicks until you unpause it.\n\nAll actions and settings will stay as they are.</string>
     <string name="popup_pause_apply">PAUSE</string>
     <string name="popup_pause_cancel">CANCEL</string>
     <string name="popup_pause_toggle">Don\'t show this again</string>
@@ -1120,9 +968,7 @@
     <string name="popup_ifttt_rename_hint">Tag Name</string>
 
     <string name="popup_disconnect_title">Disconnect Flic</string>
-    <string name="popup_disconnect_text">Your Flic won\'t respond to any clicks until you reconnect it. This
-     allows it to be reconnected to another phone.\n\nAll actions and settings
-     will stay as they are.</string>
+    <string name="popup_disconnect_text">Your Flic won\'t respond to any clicks until you reconnect it. This allows it to be reconnected to another phone.\n\nAll actions and settings will stay as they are.</string>
     <string name="popup_disconnect_apply">DISCONNECT</string>
     <string name="popup_disconnect_cancel">CANCEL</string>
     <string name="popup_disconnect_toggle">Don\'t show this again</string>
@@ -1144,35 +990,25 @@
 
     <string name="action_answer_call_name">Answer Call</string>
     <string name="action_answer_call_description">Answer an incoming phone call</string>
-    <string name="action_answer_call_read_more_text">Imagine this: You sit in your car, smoothly cruising a high-traffic road in Bahamas. The sun is
-    shining and the children in the back seats are laughing. Suddenly an incoming phone call appears on your cellphone.\n\nUnfortunately, you have no way
-    of picking your phone up and answer it. Thank God you have a Flic button on your steering wheel. That could have ended badly. Never take your
-    focus away from the road. Never.</string>
+    <string name="action_answer_call_read_more_text">Imagine this: You sit in your car, smoothly cruising a high-traffic road in Bahamas. The sun is shining and the children in the back seats are laughing. Suddenly an incoming phone call appears on your cellphone.\n\nUnfortunately, you have no way of picking your phone up and answer it. Thank God you have a Flic button on your steering wheel. That could have ended badly. Never take your focus away from the road. Never.</string>
 
     <string name="action_clear_history_name">Clear Browser History</string>
     <string name="action_clear_history_description">History no more</string>
-    <string name="action_clear_history_read_more_text">I think we all have gotten into this embarrassing situation. You do your very private stuff on your device, and later you give
-    it away to your friend. Suddenly you remember that this friend hates kittens, and your history is full of Youtube-videos of those cute and flyffy cats.\n\nInstead of asking for
-    your device back, letting your friend know that something is wrong with your Internet history - just press the Flic!\n\nThis action will clear the history on your default
-    web browser.</string>
+    <string name="action_clear_history_read_more_text">I think we all have gotten into this embarrassing situation. You do your very private stuff on your device, and later you give it away to your friend. Suddenly you remember that this friend hates kittens, and your history is full of Youtube-videos of those cute and flyffy cats.\n\nInstead of asking for your device back, letting your friend know that something is wrong with your Internet history - just press the Flic!\n\nThis action will clear the history on your default web browser.</string>
 
     <string name="action_buzzer_name">Buzzer</string>
     <string name="action_buzzer_description">Buzzing</string>
-    <string name="action_buzzer_read_more_text">A perfect way to make a quiz party back home! Let each party member assign their unique sound and you will tell who pressed the Flic
-    first!\n\n<b>HINT:</b> If you want a different sound effect. You can always download another sound and use the \"Play a Sound\"-action!</string>
+    <string name="action_buzzer_read_more_text">A perfect way to make a quiz party back home! Let each party member assign their unique sound and you will tell who pressed the Flic first!\n\n<b>HINT:</b> If you want a different sound effect. You can always download another sound and use the \"Play a Sound\"-action!</string>
 
     <string name="action_play_fart_sound_name">Fart Generator</string>
     <string name="action_play_fart_sound_description">What was that?</string>
-    <string name="action_play_fart_sound_read_more_text">You have no idea how much struggle I had to go through to give you this function. Apparently 40% of our team voted against
-    this function after a two hours long debate.</string>
+    <string name="action_play_fart_sound_read_more_text">You have no idea how much struggle I had to go through to give you this function. Apparently 40% of our team voted against this function after a two hours long debate.</string>
 
     <string name="action_camera_name">Camera</string>
     <string name="action_camera_description">Use your camera with Flic</string>
     <string name="action_camera_custom_description_1">Take pictures</string>
     <string name="action_camera_custom_description_2">Record videos</string>
-    <string name="action_camera_read_more_text">The camera function is exactly what it sounds like, but better. It supports both the front- and face-camera and have a wide set of
-    options. Just enter how you want to use the camera - taking pictures or recording videos and press your Flic to open it and get going .\n\nIn order to provide you with a good camera, we used the amazing
-    CWAC-Camera library. Everyone involved in that project - Thank you!</string>
+    <string name="action_camera_read_more_text">The camera function is exactly what it sounds like, but better. It supports both the front- and face-camera and have a wide set of options. Just enter how you want to use the camera - taking pictures or recording videos and press your Flic to open it and get going .\n\nIn order to provide you with a good camera, we used the amazing CWAC-Camera library. Everyone involved in that project - Thank you!</string>
 
     <string name="action_spotify_name">Spotify</string>
     <string name="action_spotify_description">Set up your Flic with Spotify</string>
@@ -1184,52 +1020,32 @@
     <string name="action_spotify_custom_description_1">Play&#160;</string>
     <string name="action_spotify_custom_description_2">Play a random track</string>
     <string name="action_spotify_custom_description_3">Save the currently playing track</string>
-    <string name="action_spotify_read_more_text">We all love Spotify. This swedish company made it possible for all of us to listen to our favorite music in a blink of an eye.
-    Their client supports actions such as creating your own playlist, search for related artists and saving songs for offline usage. The time has come to make it even more amazing.
-    \n\nThis Flic action supports 4 sub actions that we think all you music lovers should have in the range of a click of a Flic - <b>Play a track, Play a playlist, Play a random
-    track</b> and <b>Save the current track</b>. This action could also be combined with the <b>\"Navigate Music\"-</b> and/or the <b>\"Volume Control\"-action</b> for improved music control.\n\n<b>Track:</b>
-    Search for a spotify track and pick it from the drop down list displayed under the search bar. Everytime you press the Flic, this track will be played.\n\n<b>Playlist:</b>
-    Pick your playlist and play it with a flic of the Flic.\n\n<b>Random:</b> Feeling lucky? This sub action will play a random spotify track. Works great in combination
-    with the sub action \"Save\".\n\n<b>Save:</b> Heard a track you really want to listen to again? This sub action will save the currently playing track to your \"Songs\"-list in the
-    spotify application. You need to enable <b>Device Broadcast Status</b> in the Spotify app.</string>
+    <string name="action_spotify_read_more_text">We all love Spotify. This swedish company made it possible for all of us to listen to our favorite music in a blink of an eye. Their client supports actions such as creating your own playlist, search for related artists and saving songs for offline usage. The time has come to make it even more amazing. \n\nThis Flic action supports 4 sub actions that we think all you music lovers should have in the range of a click of a Flic - <b>Play a track, Play a playlist, Play a random track</b> and <b>Save the current track</b>. This action could also be combined with the <b>\"Navigate Music\"-</b> and/or the <b>\"Volume Control\"-action</b> for improved music control.\n\n<b>Track:</b> Search for a spotify track and pick it from the drop down list displayed under the search bar. Everytime you press the Flic, this track will be played.\n\n<b>Playlist:</b> Pick your playlist and play it with a flic of the Flic.\n\n<b>Random:</b> Feeling lucky? This sub action will play a random spotify track. Works great in combination with the sub action \"Save\".\n\n<b>Save:</b> Heard a track you really want to listen to again? This sub action will save the currently playing track to your \"Songs\"-list in the spotify application. You need to enable <b>Device Broadcast Status</b> in the Spotify app.</string>
 
     <string name="action_public_transport_departures_name">Svensk Lokaltrafik</string>
     <string name="action_public_transport_departures_description">Show the next departures for a station</string>
     <string name="action_public_transport_departures_custom_description">Show departures for&#160;</string>
     <string name="action_public_transport_departures_search_label">Search your station:</string>
     <string name="action_public_transport_departures_error">Unable to load departures</string>
-    <string name="action_public_transport_departures_read_more_text">This is an action for all you supporters living in Sweden. Enter a station where you travel a lot from, and
-    every time you press the Flic the next departures from that station will be delivered to you as a notification.</string>
+    <string name="action_public_transport_departures_read_more_text">This is an action for all you supporters living in Sweden. Enter a station where you travel a lot from, and every time you press the Flic the next departures from that station will be delivered to you as a notification.</string>
 
     <string name="action_count_presses_name">Count Presses</string>
     <string name="action_count_presses_description">Lets you count something!</string>
     <string name="action_count_presses_custom_description">Count&#160;</string>
-    <string name="action_count_presses_read_more_text">This nifty little function counts how
-    many times you press your Flic button.\n\n<b>Step 1:</b> Add what you want to count. Amount of beers perhaps?
-    \n\n<b>Step 2:</b> Press your Flic to activate the function.\n\n<b>Step 3:</b> Start pressing.
-    \n\n<b>Step 4:</b> View the presses in the Flic app and be amazed.</string>
+    <string name="action_count_presses_read_more_text">This nifty little function counts how many times you press your Flic button.\n\n<b>Step 1:</b> Add what you want to count. Amount of beers perhaps? \n\n<b>Step 2:</b> Press your Flic to activate the function.\n\n<b>Step 3:</b> Start pressing. \n\n<b>Step 4:</b> View the presses in the Flic app and be amazed.</string>
 
     <string name="action_group_count_presses_name">Group Count Presses</string>
     <string name="action_group_count_presses_description">Lets you count something in group!</string>
     <string name="action_group_count_presses_custom_description">Count&#160;</string>
-    <string name="action_group_count_presses_read_more_text">This nifty little function counts how
-    many times you press your Flic button.\n\n<b>Step 1:</b> Add what you want to count. Amount of beers perhaps?
-    \n\n<b>Step 2:</b> Press your Flic to activate the function.\n\n<b>Step 3:</b> Start pressing.
-    \n\n<b>Step 4:</b> View the presses in the Flic app and be amazed.</string>
+    <string name="action_group_count_presses_read_more_text">This nifty little function counts how many times you press your Flic button.\n\n<b>Step 1:</b> Add what you want to count. Amount of beers perhaps? \n\n<b>Step 2:</b> Press your Flic to activate the function.\n\n<b>Step 3:</b> Start pressing. \n\n<b>Step 4:</b> View the presses in the Flic app and be amazed.</string>
 
     <string name="action_find_my_phone_name">Find My Phone</string>
     <string name="action_find_my_phone_description">Is your phone lost?</string>
-    <string name="action_find_my_phone_read_more_text">This function allows you to find your lost phone.
-    Choose which actions you want to go off (vibration, flashlight and flash screen) and set the duration. Never waste your
-    life looking for your phone again.</string>
+    <string name="action_find_my_phone_read_more_text">This function allows you to find your lost phone. Choose which actions you want to go off (vibration, flashlight and flash screen) and set the duration. Never waste your life looking for your phone again.</string>
 
     <string name="action_flappy_flic_name">Flappy Flic</string>
     <string name="action_flappy_flic_description">The first game we made</string>
-    <string name="action_flappy_flic_read_more_text">Trigger your Flic to start this classic game,
-    and to move Flappy upwards. Easy. Tearing yourself away from the game? Not so easy.\n\n<b>NOTE THAT:</b> This action will
-    put your Flic into <i>super active mode</i> which means that the delay will be minimal. It takes a few seconds for the Flic to
-    enable this mode, so don\'t be afraid if you notice some delay in the start.\n\n<b>ALSO NOTE THAT:</b> The super active mode that your
-    Flic got put into will use more battery power than the regular mode. Close the game when you are not playing to save the battery of the Flic.</string>
+    <string name="action_flappy_flic_read_more_text">Trigger your Flic to start this classic game, and to move Flappy upwards. Easy. Tearing yourself away from the game? Not so easy.\n\n<b>NOTE THAT:</b> This action will put your Flic into <i>super active mode</i> which means that the delay will be minimal. It takes a few seconds for the Flic to enable this mode, so don\'t be afraid if you notice some delay in the start.\n\n<b>ALSO NOTE THAT:</b> The super active mode that your Flic got put into will use more battery power than the regular mode. Close the game when you are not playing to save the battery of the Flic.</string>
 
 
     <!-- Flic Control -->
@@ -1261,66 +1077,47 @@
 
     <string name="action_food_name">Food With Flic</string>
     <string name="action_food_description">Hungry?</string>
-    <string name="action_food_read_more_text">This action will open up a screen where a random dish will be generated. If you seem to like it, press the
-    \"READ MORE\", if it it is not your taste, simply press the Flic again to generate a new dish.\n\n<b>Q: </b><i>Are you proud of this function?</i>\n<b>A:
-    </b>Not really.\n\n<b>Q: </b><i>Will you use it?</i>\n<b>A: </b>Nah..\n\n<b>Q: </b><i>Can you really eat what gets generated?</i>\n<b>A: </b>Yes! Mostly.</string>
+    <string name="action_food_read_more_text">This action will open up a screen where a random dish will be generated. If you seem to like it, press the \"READ MORE\", if it it is not your taste, simply press the Flic again to generate a new dish.\n\n<b>Q: </b><i>Are you proud of this function?</i>\n<b>A: </b>Not really.\n\n<b>Q: </b><i>Will you use it?</i>\n<b>A: </b>Nah..\n\n<b>Q: </b><i>Can you really eat what gets generated?</i>\n<b>A: </b>Yes! Mostly.</string>
 
     <string name="action_flic_flyer_name">Flic Flyer</string>
     <string name="action_flic_flyer_description">How far can you fly?</string>
-    <string name="action_flic_flyer_read_more_text">Trigger your Flic to start this classic game,
-    and to move Flic Flyer upwards. Easy. Tearing yourself away from the game? Not so easy.\n\n<b>NOTE THAT:</b> This action will
-    put your Flic into <i>super active mode</i> which means that the delay will be minimal. It takes a few seconds for the Flic to
-    enable this mode, so don\'t be afraid if you notice some delay in the start.\n\n<b>ALSO NOTE THAT:</b> The super active mode that your
-    Flic got put into will use more battery power than the regular mode. Close the game when you are not playing to save the battery of the Flic.</string>
+    <string name="action_flic_flyer_read_more_text">Trigger your Flic to start this classic game, and to move Flic Flyer upwards. Easy. Tearing yourself away from the game? Not so easy.\n\n<b>NOTE THAT:</b> This action will put your Flic into <i>super active mode</i> which means that the delay will be minimal. It takes a few seconds for the Flic to enable this mode, so don\'t be afraid if you notice some delay in the start.\n\n<b>ALSO NOTE THAT:</b> The super active mode that your Flic got put into will use more battery power than the regular mode. Close the game when you are not playing to save the battery of the Flic.</string>
 
     <string name="action_flashlight_name">Flashlight</string>
     <string name="action_flashlight_description">Toggle your flashlight</string>
     <string name="action_flashlight_custom_description_1">Remain on for&#160;</string>
     <string name="action_flashlight_custom_description_2">&#160;seconds</string>
     <string name="action_flashlight_custom_description_3">Remain on indefinitely</string>
-    <string name="action_flashlight_read_more_text">This function will start your phone\'s flashlight by pressing your Flic,
-    for an specific amount of seconds or until you press your Flic again.</string>
+    <string name="action_flashlight_read_more_text">This function will start your phone\'s flashlight by pressing your Flic, for an specific amount of seconds or until you press your Flic again.</string>
 
     <string name="action_hang_up_name">Hang Up Call</string>
     <string name="action_hang_up_description">Hangs up your incoming call</string>
-    <string name="action_hang_up_read_more_text">\"Hang Up Call\" can be useful in many situations. It will end an incoming phone call
-    as well as ending an ongoing call.\n\nFor you who want to be more polite - enter a preset message explanining why you ended it. Explain
-    that you are currently on the edge of breaking your Flappy Flic record.</string>
+    <string name="action_hang_up_read_more_text">\"Hang Up Call\" can be useful in many situations. It will end an incoming phone call as well as ending an ongoing call.\n\nFor you who want to be more polite - enter a preset message explanining why you ended it. Explain that you are currently on the edge of breaking your Flappy Flic record.</string>
 
     <string name="action_harmony_name">Harmony Hub</string>
     <string name="action_harmony_description">Toggle an Harmony activity</string>
-    <string name="action_harmony_read_more_text">This function requires that you own a Logitech Harmony Hub. If that information fits on you,
-    you should really give this a try. Below will all your Harmony activities be listed. Toggle them with just a click on your Flic.</string>
+    <string name="action_harmony_read_more_text">This function requires that you own a Logitech Harmony Hub. If that information fits on you, you should really give this a try. Below will all your Harmony activities be listed. Toggle them with just a click on your Flic.</string>
 
 
     <string name="action_record_audio_name">Record Audio</string>
     <string name="action_record_audio_description">Records sound</string>
-    <string name="action_record_audio_read_more_text">Become the spy agent you always wanted to be. Trigger this function to start recording your mic on the device. Trigger
-    it again to turn it off.</string>
+    <string name="action_record_audio_read_more_text">Become the spy agent you always wanted to be. Trigger this function to start recording your mic on the device. Trigger it again to turn it off.</string>
 
     <string name="action_ifttt_name">IFTTT</string>
     <string name="action_ifttt_description">Trigger your IFTTT-channel</string>
     <string name="action_ifttt_location_label">Include location</string>
     <string name="action_ifttt_tag_label">IFTTT Tag (optional)</string>
     <string name="action_ifttt_tag_info_title">IFTTT Tag</string>
-    <string name="action_ifttt_tag_info_text">An IFTTT Tag is a string that is sent to IFTTT that you can listen for. So instead of "White Flic" was clicked, you can listen for
-    [TAG NAME] in IFTTT.\n\nThe Tags are created in the IFTTT-provider.</string>
-    <string name="action_ifttt_read_more_text">IFTTT (If This Then That) is probably one of the most useful functions you can think of. It basically means that
-    you use your Flic to trigger web-based actions, and IFTTT has <u>A LOT</u> of them.\n\nTo use it, simply make an account on <a href="https://www.ifttt.com">www.ifttt.com</a>
-    and find the Flic channel. Here you will be able authorize your Flic account and tell the channel which Flics you want to listen for. Now you can
-    define what you want to happen when the IFTTT server registers a Flic event. Maybe send NASAS picture of the day to your email or start your garden waterer?
-    \n\nIn this application, set the IFTTT action on the Flic(s) you set up in the previous step and you are ready to go.\n\n<b>NOTE THAT:</b> This function
-    requires a continued internet connection for your Flic(s) to speak with the IFTTT server.</string>
+    <string name="action_ifttt_tag_info_text">An IFTTT Tag is a string that is sent to IFTTT that you can listen for. So instead of \"White Flic\" was clicked, you can listen for [TAG NAME] in IFTTT.\n\nThe Tags are created in the IFTTT-provider.</string>
+    <string name="action_ifttt_read_more_text">IFTTT (If This Then That) is probably one of the most useful functions you can think of. It basically means that you use your Flic to trigger web-based actions, and IFTTT has <u>A LOT</u> of them.\n\nTo use it, simply make an account on <a href=\"https://www.ifttt.com\">www.ifttt.com</a> and find the Flic channel. Here you will be able authorize your Flic account and tell the channel which Flics you want to listen for. Now you can define what you want to happen when the IFTTT server registers a Flic event. Maybe send NASAS picture of the day to your email or start your garden waterer? \n\nIn this application, set the IFTTT action on the Flic(s) you set up in the previous step and you are ready to go.\n\n<b>NOTE THAT:</b> This function requires a continued internet connection for your Flic(s) to speak with the IFTTT server.</string>
 
     <string name="action_wemo_name">WeMo</string>
     <string name="action_wemo_description">Manage your WeMo devices</string>
-    <string name="action_wemo_read_more_text">WeMo is a smart power switch for all the electricity back home. Simply pick one of your WeMo and set if you want to turn
-    them on, off or toggle them.\n\nInformation about how to integrate them into the Flic application can be found in the provider view.</string>
+    <string name="action_wemo_read_more_text">WeMo is a smart power switch for all the electricity back home. Simply pick one of your WeMo and set if you want to turn them on, off or toggle them.\n\nInformation about how to integrate them into the Flic application can be found in the provider view.</string>
 
     <string name="action_eon_name">100Koll</string>
     <string name="action_eon_description">Styr dina prylar</string>
-    <string name="action_eon_read_more_text">Med 100Koll smartplugs kan du styra lampor eller andra elprylar, som är inkopplade i uttaget. Välj mellan tre kommandon:
-    På, Av eller På/Av. </string>
+    <string name="action_eon_read_more_text">Med 100Koll smartplugs kan du styra lampor eller andra elprylar, som är inkopplade i uttaget. Välj mellan tre kommandon: På, Av eller På/Av.</string>
 
     <string name="action_jawbone_name">Jawbone/UP</string>
     <string name="action_jawbone_description">Track your exercise</string>
@@ -1330,48 +1127,23 @@
     <string name="action_jawbone_mode_cycle">Cycle</string>
     <string name="action_jawbone_mode_other">Other</string>
     <string name="action_jawbone_label">Immediate upload to Jawbone</string>
-    <string name="action_jawbone_read_more_text">This action tracks the duration, distance and speed of your favorite type of exercise. Flic is your perfect
-    companion to start and stop your activity, to relieve you of that awkward moment when you need to fiddle out your phone during that last sprint.\n\nIn order to make distance measurements
-    as accurate as possible, the GPS might need some time to get a good enough signal. An audio cue will tell you when it is time to start and give you a count in for when
-    the actual tracking begins.\n\nWhen the route is finished, the path will be stored in the application and can be listed from the Jawbone-provider. Press it to upload it
-    to your personal Jawbone account. If the \"immediate upload to Jawbone\"-field is checked - the application will try to upload the path right away.\n\n<b>NOTE
-    THAT:</b> The paths are just stored as long as the application is running. If you restart the application - all unsaved data will be lost.</string>
+    <string name="action_jawbone_read_more_text">This action tracks the duration, distance and speed of your favorite type of exercise. Flic is your perfect companion to start and stop your activity, to relieve you of that awkward moment when you need to fiddle out your phone during that last sprint.\n\nIn order to make distance measurements as accurate as possible, the GPS might need some time to get a good enough signal. An audio cue will tell you when it is time to start and give you a count in for when the actual tracking begins.\n\nWhen the route is finished, the path will be stored in the application and can be listed from the Jawbone-provider. Press it to upload it to your personal Jawbone account. If the \"immediate upload to Jawbone\"-field is checked - the application will try to upload the path right away.\n\n<b>NOTE THAT:</b> The paths are just stored as long as the application is running. If you restart the application - all unsaved data will be lost.</string>
 
     <string name="action_runkeeper_name">Runkeeper</string>
     <string name="action_runkeeper_description">Save your path</string>
     <string name="action_runkeeper_label">Immediate upload to Runkeeper</string>
-    <string name="action_runkeeper_read_more_text">This action tracks the duration, distance and speed of your favorite type of exercise. Flic is your perfect
-    companion to start and stop your activity, to relieve you of that awkward moment when you need to fiddle out your phone during that last sprint.\n\nIn order to make distance measurements
-    as accurate as possible, the GPS might need some time to get a good enough signal. An audio cue will tell you when it is time to start and give you a count in for when
-    the actual tracking begins.\n\nWhen the route is finished, the path will be stored in the application and can be listed from the Runkeeper-provider. Press it to upload it
-    to your personal Runkeeper account. If the \"immediate upload to Runkeeper\"-field is checked - the application will try to upload the path right away.\n\n<b>NOTE
-    THAT:</b> The paths are just stored as long as the application is running. If you restart the application - all unsaved data will be lost.</string>
+    <string name="action_runkeeper_read_more_text">This action tracks the duration, distance and speed of your favorite type of exercise. Flic is your perfect companion to start and stop your activity, to relieve you of that awkward moment when you need to fiddle out your phone during that last sprint.\n\nIn order to make distance measurements as accurate as possible, the GPS might need some time to get a good enough signal. An audio cue will tell you when it is time to start and give you a count in for when the actual tracking begins.\n\nWhen the route is finished, the path will be stored in the application and can be listed from the Runkeeper-provider. Press it to upload it to your personal Runkeeper account. If the \"immediate upload to Runkeeper\"-field is checked - the application will try to upload the path right away.\n\n<b>NOTE THAT:</b> The paths are just stored as long as the application is running. If you restart the application - all unsaved data will be lost.</string>
 
     <string name="action_unified_remote_action_name">Unified Remote</string>
     <string name="action_unified_remote_action_description">Execute an Unified Remote Action</string>
     <string name="action_unified_remote_action_uri_label">URI</string>
-    <string name="action_unified_remote_action_read_more_text">Unified Remote turns your smartphone into a universal remote control for your computer. It supports more
-    than 90 different applications, everything from mouse and keyboard to your favorite media players, presentations, and even games. The possibilities are endless.
-    You can use it to change slide in a presentation, put your computer to sleep, execute a shell/terminal command, and much more!\n\nTo get started, you must have
-    the full version of the Unified Remote app installed. The Unified Remote app guides you through the process of setting up the connection with your computer.
-    Creating a Flic action for Unified Remote is easy. Press \"BUILD URI\" to open the action wizard.\n\n<b>Remote Action</b> will trigger an action for a specific
-    remote (for example: choosing the “Power” remote and the action “Shutdown” will turn off your computer!\n\n<b>Open Remote</b> lets you open a specific remote in
-    the app. For example, you could program it to open the Mouse/Keyboard remote when you press the Flic.\n\n<b>Device Actions</b> are used for triggering actions
-    that run on your Android device. For example, Wake on LAN, or even sending an IR signal (if your device supports it). This opens up the possibility to control more
-    than just your computer.\n\n<b>Change Server</b> lets you create a command that changes which server the app is connected to.\n\n<b>Open In App</b> lets you create
-    shortcuts to open different parts of the app. For example, to open the remotes list or the app status.\n\n<b>Destination</b> Note that many types of actions can also
-    be programmed to trigger on a specific server (or active server to use the currently connected computer). This is useful if you want to control specific programs on
-    specific computers.\n\n<b>Extras</b> Note also that some actions may require some extra input. For example, the "Text" action in the "Keyboard" remote lets you simulate
-    text input on your computer.\n\nVisit  <a href="https://www.unifiedremote.com">www.unifiedremote.com</a> for more information or to get help!</string>
+    <string name="action_unified_remote_action_read_more_text">Unified Remote turns your smartphone into a universal remote control for your computer. It supports more than 90 different applications, everything from mouse and keyboard to your favorite media players, presentations, and even games. The possibilities are endless. You can use it to change slide in a presentation, put your computer to sleep, execute a shell/terminal command, and much more!\n\nTo get started, you must have the full version of the Unified Remote app installed. The Unified Remote app guides you through the process of setting up the connection with your computer. Creating a Flic action for Unified Remote is easy. Press \"BUILD URI\" to open the action wizard.\n\n<b>Remote Action</b> will trigger an action for a specific remote (for example: choosing the “Power” remote and the action “Shutdown” will turn off your computer!\n\n<b>Open Remote</b> lets you open a specific remote in the app. For example, you could program it to open the Mouse/Keyboard remote when you press the Flic.\n\n<b>Device Actions</b> are used for triggering actions that run on your Android device. For example, Wake on LAN, or even sending an IR signal (if your device supports it). This opens up the possibility to control more than just your computer.\n\n<b>Change Server</b> lets you create a command that changes which server the app is connected to.\n\n<b>Open In App</b> lets you create shortcuts to open different parts of the app. For example, to open the remotes list or the app status.\n\n<b>Destination</b> Note that many types of actions can also be programmed to trigger on a specific server (or active server to use the currently connected computer). This is useful if you want to control specific programs on specific computers.\n\n<b>Extras</b> Note also that some actions may require some extra input. For example, the \"Text\" action in the \"Keyboard\" remote lets you simulate text input on your computer.\n\nVisit <a href=\"https://www.unifiedremote.com\">www.unifiedremote.com</a> for more information or to get help!</string>
 
     <string name="action_zapier_name">Zapier</string>
     <string name="action_zapier_description">Trigger Zapier</string>
     <string name="action_zapier_location_label">Location needed</string>
     <string name="action_zapier_error">Unable to trigger Zapier</string>
-    <string name="action_zapier_read_more_text">There\'s a secret language that lets web apps (Evernote, Dropbox, Gmail&#8230;) talk to each other. The terrible tragedy is that
-    this language is only spoken by an elite few who possess technical superpowers. Zapier bestows these superpowers upon you! Want to send an email to create a new task in Trello?
-    Now you can. Want to backup your Evernote notes to your Dropbox? Now you can! \n\nYour time is valuable. Don\'t waste another second or dollar creating complicated integrations
-    systems. Use Zapier to automate the apps you and your team are already using daily.</string>
+    <string name="action_zapier_read_more_text">There\'s a secret language that lets web apps (Evernote, Dropbox, Gmail&#8230;) talk to each other. The terrible tragedy is that this language is only spoken by an elite few who possess technical superpowers. Zapier bestows these superpowers upon you! Want to send an email to create a new task in Trello? Now you can. Want to backup your Evernote notes to your Dropbox? Now you can! \n\nYour time is valuable. Don\'t waste another second or dollar creating complicated integrations systems. Use Zapier to automate the apps you and your team are already using daily.</string>
 
     <string name="action_task_killer_name">Task Killer</string>
     <string name="action_task_killer_description">Kill all your running background activities</string>
@@ -1380,8 +1152,7 @@
     <string name="action_uber_name">Uber</string>
     <string name="action_uber_description">Order a Uber ride</string>
     <string name="action_uber_gps_label">Use GPS</string>
-    <string name="action_uber_read_more_text">With the click of a Flic, this function orders you an Uber taxi to your location.
-    This requires that you activate your phone\'s GPS system in Settings.</string>
+    <string name="action_uber_read_more_text">With the click of a Flic, this function orders you an Uber taxi to your location. This requires that you activate your phone\'s GPS system in Settings.</string>
 
     <string name="action_lifx_toggle_name">LIFX</string>
     <string name="action_lifx_location_error">Unable to set location color</string>
@@ -1391,12 +1162,7 @@
     <string name="action_lifx_group_state_error">Unable to set group state</string>
     <string name="action_lifx_light_state_error">Unable to set light state</string>
     <string name="action_lifx_toggle_description">Control your LIFX lights</string>
-    <string name="action_lifx_toggle_read_more_text">This function controls your beloved LIFX lights,
-    or makes you wish you had some LIFX lights in your life. \n\nFirst set which bulb(s) you wish to control and
-    what mode you want.\n\n<b>Toggle:</b> If the light is on, it will be turned off by pressing the Flic, and vice versa.
-    \n\n<b>On:</b> Turn them off\n\n<b>Off:</b> Turn them on. No wait, it might be the other way around..
-    \n\nIf you select Toggle or On mode, either choose color adjusting hue, saturation, brightness, or if you\'re more into surprises -
-    pick the random function.</string>
+    <string name="action_lifx_toggle_read_more_text">This function controls your beloved LIFX lights, or makes you wish you had some LIFX lights in your life. \n\nFirst set which bulb(s) you wish to control and what mode you want.\n\n<b>Toggle:</b> If the light is on, it will be turned off by pressing the Flic, and vice versa. \n\n<b>On:</b> Turn them off\n\n<b>Off:</b> Turn them on. No wait, it might be the other way around.. \n\nIf you select Toggle or On mode, either choose color adjusting hue, saturation, brightness, or if you\'re more into surprises - pick the random function.</string>
 
     <string name="action_lightify_name">Lightify</string>
     <string name="action_lightify_location_error">Unable to set location color</string>
@@ -1424,43 +1190,27 @@
 
     <string name="action_lifx_scene_name">LIFX Scene</string>
     <string name="action_lifx_scene_description">Control your LIFX lights</string>
-    <string name="action_lifx_scene_read_more_text">This function controls your beloved LIFX lights,
-    or makes you wish you had some LIFX lights in your life. \n\nFirst set which bulb(s) you wish to control and
-    what mode you want.\n\n<b>Toggle:</b> If the light is on, it will be turned off by pressing the Flic, and vice versa.
-    \n\n<b>On:</b> Turn them off\n\n<b>Off:</b> Turn them on. No wait, it might be the other way around..
-    \n\nIf you select Toggle or On mode, either choose color adjusting hue, saturation, brightness, or if you\'re more into surprises -
-    pick the random function.</string>
+    <string name="action_lifx_scene_read_more_text">This function controls your beloved LIFX lights, or makes you wish you had some LIFX lights in your life. \n\nFirst set which bulb(s) you wish to control and what mode you want.\n\n<b>Toggle:</b> If the light is on, it will be turned off by pressing the Flic, and vice versa. \n\n<b>On:</b> Turn them off\n\n<b>Off:</b> Turn them on. No wait, it might be the other way around.. \n\nIf you select Toggle or On mode, either choose color adjusting hue, saturation, brightness, or if you\'re more into surprises - pick the random function.</string>
 
     <string name="action_navigate_name">Navigate</string>
     <string name="action_navigate_description">Start your navigation system</string>
     <string name="action_navigate_custom_description">&#160;to&#160;</string>
-    <string name="action_navigate_read_more_text">This function allows you to start your phone\'s navigation
-    system with a press of the Flic button. The from position is your current location. The only thing you need to care about
-    is where you want to go. Assign your address destination, and set the navigate type
-    (drive, public transportation, bicycle or walk).</string>
+    <string name="action_navigate_read_more_text">This function allows you to start your phone\'s navigation system with a press of the Flic button. The from position is your current location. The only thing you need to care about is where you want to go. Assign your address destination, and set the navigate type (drive, public transportation, bicycle or walk).</string>
 
     <string name="action_system_control_name">System Control</string>
     <string name="action_system_control_description">Control your Android system</string>
-    <string name="action_system_control_read_more">System Control will help you control the different services that Android provides you with. Unfortunately,
-    the \"Flight Mode\" can\'t be played with due to a restriction in the Android platform.\n\nSome of you might say that the Bluetooth service is strange to work
-    with due to the very nature of our application. You might be correct.\n\n<b>NOTE THAT:</b> Changing your screen brightness will put your brightness mode into
-    \"Manual Mode\" which will stop your screen brightness to be automatically adjusted depending on environment. To re-enable \"Automatic Mode\" - go to Settings ->
-    Display -> check \"Adaptive brightness\".</string>
+    <string name="action_system_control_read_more">System Control will help you control the different services that Android provides you with. Unfortunately, the \"Flight Mode\" can\'t be played with due to a restriction in the Android platform.\n\nSome of you might say that the Bluetooth service is strange to work with due to the very nature of our application. You might be correct.\n\n<b>NOTE THAT:</b> Changing your screen brightness will put your brightness mode into \"Manual Mode\" which will stop your screen brightness to be automatically adjusted depending on environment. To re-enable \"Automatic Mode\" - go to Settings -> Display -> check \"Adaptive brightness\".</string>
 
     <string name="action_waze_name">Waze</string>
     <string name="action_waze_description">Navigate with Waze</string>
     <string name="action_waze_custom_description">Drive to&#160;</string>
-    <string name="action_waze_read_more_text">Waze is a social GPS that allows users to share the current traffic situation where they are. With this action
-    you can specify where you want to go. Press the Flic to start the navigation to that destination. \n\nWe (the Flic-team) hoped that you would be able to
-    share traffic stockings and more with a simple Flic-press, but Waze (Google Cooperation) doesn\'t answer our mails. If you would find such functions handy,
-    please write to them you as well ;).</string>
+    <string name="action_waze_read_more_text">Waze is a social GPS that allows users to share the current traffic situation where they are. With this action you can specify where you want to go. Press the Flic to start the navigation to that destination. \n\nWe (the Flic-team) hoped that you would be able to share traffic stockings and more with a simple Flic-press, but Waze (Google Cooperation) doesn\'t answer our mails. If you would find such functions handy, please write to them you as well ;).</string>
 
     <string name="action_open_browser_name">Open Browser</string>
     <string name="action_open_browser_description">Lets you open your browser</string>
     <string name="action_open_browser_custom_description">Opens&#160;</string>
     <string name="action_open_browser_error">Unable to open URL</string>
-    <string name="action_open_browser_read_more_text">This function will open up your main Internet browser. \n\nWhen you enter
-    the url that you want to launch with your browser\, don\'t forget the correct protocol (for example <i><b><u>https://</u></b>www.flic.io</i>).</string>
+    <string name="action_open_browser_read_more_text">This function will open up your main Internet browser. \n\nWhen you enter the url that you want to launch with your browser\, don\'t forget the correct protocol (for example <i><b><u>https://</u></b>www.flic.io</i>).</string>
 
     <string name="action_philips_hue_name">Philips Hue</string>
     <string name="action_philips_hue_description">Control your Philips Hue lights</string>
@@ -1473,10 +1223,7 @@
     <string name="action_philips_hue_color_mode_choose">and pick color</string>
     <string name="action_philips_hue_color_mode_random">and random color</string>
 
-    <string name="action_philips_hue_read_more_text">To be able to configure this action you have to connect this device to a Philips Hue Hub. Follow the \"ADD HUBS\"-button
-     to do this.\n\nOnce your lights are listed here below, check the lights you want to get triggered by this action and fill in the configuration.\n\n<b>NOTE THAT:</b>
-     The Flic-team has a lot of things to do right now. If you want more advanced configuration of your Hub and lights, please download
-     the official Philips Hue app and configure from there.</string>
+    <string name="action_philips_hue_read_more_text">To be able to configure this action you have to connect this device to a Philips Hue Hub. Follow the \"ADD HUBS\"-button to do this.\n\nOnce your lights are listed here below, check the lights you want to get triggered by this action and fill in the configuration.\n\n<b>NOTE THAT:</b> The Flic-team has a lot of things to do right now. If you want more advanced configuration of your Hub and lights, please download the official Philips Hue app and configure from there.</string>
 
     <string name="action_philips_hue_scene_name">Philips Hue Scene</string>
     <string name="action_philips_hue_scene_description">Control your Philips Hue scenes</string>
@@ -1484,8 +1231,7 @@
     <string name="action_phone_call_name">Phone Call</string>
     <string name="action_phone_call_description">Call a number</string>
     <string name="action_phone_call_custom_description">Calls&#160;</string>
-    <string name="action_phone_call_read_more_text">This function lets you assign a phone number from your contacts (or by heart),
-    which will then be called by pressing your Flic. Call your favorite person, over and over again.</string>
+    <string name="action_phone_call_read_more_text">This function lets you assign a phone number from your contacts (or by heart), which will then be called by pressing your Flic. Call your favorite person, over and over again.</string>
 
     <string name="action_play_pause_name">Navigate Music</string>
     <string name="action_play_pause_description">Navigate your music player</string>
@@ -1498,15 +1244,13 @@
     <string name="action_play_pause_custom_description_5">Previous on&#160;</string>
     <string name="action_play_pause_custom_description_6">Forward&#160;</string>
     <string name="action_play_pause_custom_description_7">Rewind&#160;</string>
-    <string name="action_play_pause_read_more_text">This function lets you control your device\'s music by pressing your Flic.
-    Assign one of the use cases - toggle, play, pause, next, previous, forward or rewind - and enjoy a more simple way to navigate your music.</string>
+    <string name="action_play_pause_read_more_text">This function lets you control your device\'s music by pressing your Flic. Assign one of the use cases - toggle, play, pause, next, previous, forward or rewind - and enjoy a more simple way to navigate your music.</string>
 
     <string name="action_play_sound_name">Play a Sound</string>
     <string name="action_play_sound_description">Play a sound on your device</string>
     <string name="action_play_sound_custom_description_1">Loops&#160;</string>
     <string name="action_play_sound_custom_description_2">Plays&#160;</string>
-    <string name="action_play_sound_read_more_text">Select a file from your phone\'s audio library, and activate it by pressing your Flic button.
-    This function also comes with a "loop sound" option, enabling you to listen to the same track non-stop until you press your Flic again.</string>
+    <string name="action_play_sound_read_more_text">Select a file from your phone\'s audio library, and activate it by pressing your Flic button. This function also comes with a \"loop sound\" option, enabling you to listen to the same track non-stop until you press your Flic again.</string>
 
     <string name="action_internet_request_name">Internet Request</string>
     <string name="action_internet_request_description">Lets you do an Internet request</string>
@@ -1514,15 +1258,13 @@
     <string name="action_internet_request_custom_description_2">Get from&#160;</string>
     <string name="action_internet_request_custom_description_3">Put to&#160;</string>
     <string name="action_internet_request_custom_description_4">Delete on&#160;</string>
-    <string name="action_internet_request_read_more">This function enables you to make an Internet request.
-    Choose one of four modes (post, get, put, delete) and assign an URL, and send your request by clicking your Flic.</string>
+    <string name="action_internet_request_read_more">This function enables you to make an Internet request. Choose one of four modes (post, get, put, delete) and assign an URL, and send your request by clicking your Flic.</string>
 
     <string name="action_launch_application_name">Launch Application</string>
     <string name="action_launch_application_description">Launches a preset application</string>
     <string name="action_launch_application_hint">Search application</string>
     <string name="action_launch_application_custom_description">Launch&#160;</string>
-    <string name="action_launch_application_read_more">The time when we scroll through the entire Android phone searching for our favorite application (after Flic) is over!\n\nJust
-    enter what application you want to launch and you have the godly launch power right under your fingertips.</string>
+    <string name="action_launch_application_read_more">The time when we scroll through the entire Android phone searching for our favorite application (after Flic) is over!\n\nJust enter what application you want to launch and you have the godly launch power right under your fingertips.</string>
 
     <string name="action_pair_bluetooth_name">Bluetooth Control</string>
     <string name="action_pair_bluetooth_description">Connects to a known Bluetooth device</string>
@@ -1530,8 +1272,7 @@
     <string name="action_pair_bluetooth_custom_description_1">Connect &#160;</string>
     <string name="action_pair_bluetooth_custom_description_2">Disconnect &#160;</string>
     <string name="action_pair_bluetooth_custom_description_3">Toggle connect&#160;</string>
-    <string name="action_pair_bluetooth_read_more">This action will list all your known Bluetooth devices, and let you establish a connection to the one you prefer.\n\n<b>NOTE THAT:</b>
-    To be able to find the Bluetooth device you want to connect with in the list below, you first have to connect it manually.</string>
+    <string name="action_pair_bluetooth_read_more">This action will list all your known Bluetooth devices, and let you establish a connection to the one you prefer.\n\n<b>NOTE THAT:</b> To be able to find the Bluetooth device you want to connect with in the list below, you first have to connect it manually.</string>
 
     <string name="action_connect_wifi_name">Connect WiFi</string>
     <string name="action_connect_wifi_description">Connects to a known network</string>
@@ -1541,41 +1282,30 @@
     <string name="action_connect_wifi_error_network_not_found">Could not find the network&#160;</string>
     <string name="action_connect_wifi_error_could_not_connect">Could not connect to the network&#160;</string>
     <string name="action_connect_wifi_error_wifi_disabled">WiFi not enabled</string>
-    <string name="action_connect_wifi_read_more">What WiFi do you need to be connected to at that particular place, and when do you need to be connected to it? This is a typical
-    first world struggle that never seemed to end. Until now.\n\nThis action will give you a list of known networks (networks that you have been connected to before). Just pick a
-    network and every time you trigger this action - your device will start a connection attempt to that network.</string>
+    <string name="action_connect_wifi_read_more">What WiFi do you need to be connected to at that particular place, and when do you need to be connected to it? This is a typical first world struggle that never seemed to end. Until now.\n\nThis action will give you a list of known networks (networks that you have been connected to before). Just pick a network and every time you trigger this action - your device will start a connection attempt to that network.</string>
 
     <string name="action_screen_lock_name">Lock Screen</string>
     <string name="action_screen_lock_description">Locks your screen</string>
-    <string name="action_screen_lock_read_more_text">Despite of what the name of this function is, it will actually send an email with a random picture
-    from your device to all your contacts.\n\nNo, but really. It will lock your screen. This function will need you to enable the admin-privileges
-    to this application. This will actually lock the application, so if you want to uninstall it, you first have to disable the admin-privileges
-    in the provider-view. You find this view by clicking on the menu button in the upper right.</string>
+    <string name="action_screen_lock_read_more_text">Despite of what the name of this function is, it will actually send an email with a random picture from your device to all your contacts.\n\nNo, but really. It will lock your screen. This function will need you to enable the admin-privileges to this application. This will actually lock the application, so if you want to uninstall it, you first have to disable the admin-privileges in the provider-view. You find this view by clicking on the menu button in the upper right.</string>
 
     <string name="action_send_email_name">Prepare Email</string>
     <string name="action_send_email_description">Lets you prepare an email</string>
     <string name="action_send_email_custom_description_1">Email multiple contacts</string>
     <string name="action_send_email_error">Unable to start the mail application</string>
     <string name="action_send_email_custom_description_2">Email&#160;</string>
-    <string name="action_send_email_read_more_text">This function allows you to open a predefined email skeleton.
-    Assign one or more receivers from your contact book or your brain, fill in subject and body (email content),
-    and you\'re good to go!</string>
+    <string name="action_send_email_read_more_text">This function allows you to open a predefined email skeleton. Assign one or more receivers from your contact book or your brain, fill in subject and body (email content), and you\'re good to go!</string>
 
     <string name="action_send_gmail_name">Send Gmail</string>
     <string name="action_send_gmail_description">Lets you send a pre-defined gmail</string>
     <string name="action_send_gmail_custom_description_1">gmail multiple contacts</string>
     <string name="action_send_gmail_custom_description_2">gmail&#160;</string>
     <string name="action_send_gmail_error">Unable to send email</string>
-    <string name="action_send_gmail_read_more_text">This function allows you to send a predefined gmail.
-    Assign one or more receivers from your contact book or your brain, fill in subject and body (gmail content),
-    and you\'re good to go!</string>
+    <string name="action_send_gmail_read_more_text">This function allows you to send a predefined gmail. Assign one or more receivers from your contact book or your brain, fill in subject and body (gmail content), and you\'re good to go!</string>
 
     <string name="action_send_intent_name">Send Intent</string>
     <string name="action_send_intent_description">Lets you send a predifined intent</string>
     <string name="action_send_intent_custom_description">Sends the intent&#160;</string>
-    <string name="action_send_intent_read_more_text">Send intent is for more advanced users. Maybe you are a developer and want your own application
-    to listen for the global intent that is being sent in the device. Or maybe you want to trigger some other application that you know is listening
-    for a specific intent.\n\n<i>http://developer.android.com/guide/components/intents-filters.html</i> has more information about how to use it.</string>
+    <string name="action_send_intent_read_more_text">Send intent is for more advanced users. Maybe you are a developer and want your own application to listen for the global intent that is being sent in the device. Or maybe you want to trigger some other application that you know is listening for a specific intent.\n\n<i>http://developer.android.com/guide/components/intents-filters.html</i> has more information about how to use it.</string>
 
     <string name="action_read_text_message_name">Read Text Message</string>
     <string name="action_read_text_message_description">Reads your last text message</string>
@@ -1584,9 +1314,7 @@
     <string name="action_read_text_message_language_label">Search Language</string>
     <string name="action_read_text_message_tempo_text">Enter how fast you want the voice to speak.\n\n1.0 is default and is approximately how Barack Obama speaks.</string>
     <string name="action_read_text_message_custom_description">Language:&#160;</string>
-    <string name="action_read_text_message_read_more">*PLIIING* - A new text message arrived. Why the hell is my phone placed at the other side of the couch? Is
-    it worth the effort to gather enough strength to crawl and get it? Lets find out.\n\nThis function will read the last text message arrived in your chosen language. No
-    more wasted couch crawl and no more disappointments.</string>
+    <string name="action_read_text_message_read_more">*PLIIING* - A new text message arrived. Why the hell is my phone placed at the other side of the couch? Is it worth the effort to gather enough strength to crawl and get it? Lets find out.\n\nThis function will read the last text message arrived in your chosen language. No more wasted couch crawl and no more disappointments.</string>
 
     <string name="action_send_location_name">Share Location</string>
     <string name="action_send_location_description">Text message your position</string>
@@ -1597,59 +1325,39 @@
     <string name="action_send_location_meters">&#160;meters</string>
     <string name="action_send_location_powered">Powered by Flic</string>
     <string name="action_send_location_no_address">Found no address&#8230;</string>
-    <string name="action_send_location_read_more_text">This function will text message your position to one or more specified contacts.
-    Enter how the text message should begin, and the rest of the text message will be filled with your current location.\n\n<b>NOTE THAT:</b>
-    It takes a few seconds for your device to gather the information needed to give a good position. Also note that the information that is
-    being sent should just be used for entertainment purposes, since it is not always reliable.</string>
+    <string name="action_send_location_read_more_text">This function will text message your position to one or more specified contacts. Enter how the text message should begin, and the rest of the text message will be filled with your current location.\n\n<b>NOTE THAT:</b> It takes a few seconds for your device to gather the information needed to give a good position. Also note that the information that is being sent should just be used for entertainment purposes, since it is not always reliable.</string>
 
     <string name="action_send_sms_name">Text Message</string>
     <string name="action_send_sms_description">Sends text messages</string>
     <string name="action_send_sms_custom_description_1">Multiple text messages</string>
     <string name="action_send_sms_custom_description_2">Text message&#160;</string>
-    <string name="action_send_sms_read_more_text">Enter one or more contacts that you feel should benefit from the text message you are about to send.
-    When you have thought of at least one, fill in the message he/she (or if you live in Sweden - \"hen\") should receive. With just a flic (copyrighted) of
-    the button, the text message(s) will be sent.\n\n<b>NOTE THAT:</b> This is not a charity. You are yourself paying for the text messages you send.
-    As much as you would if you would send them normally.</string>
+    <string name="action_send_sms_read_more_text">Enter one or more contacts that you feel should benefit from the text message you are about to send. When you have thought of at least one, fill in the message he/she (or if you live in Sweden - \"hen\") should receive. With just a flic (copyrighted) of the button, the text message(s) will be sent.\n\n<b>NOTE THAT:</b> This is not a charity. You are yourself paying for the text messages you send. As much as you would if you would send them normally.</string>
 
     <string name="action_preset_messsage_name">\"Hi, I\'m&#8230;\" - button</string>
     <string name="action_preset_messsage_description">Share what you are up to</string>
-    <string name="action_preset_messsage_read_more_text">Are you nervous about your child walking home from school? Does this nervousness relieve when you know that they are home safe? Then
-    this action is something for you! Stick your Flic where your child (or husband) can reach it and just tell your child to press it when they come home. A simple text message will
-    be delivered to you.\n\nThis function also works for other types of scenarios. For example if you want to tell someone that you arrived at the office, or something like that.</string>
+    <string name="action_preset_messsage_read_more_text">Are you nervous about your child walking home from school? Does this nervousness relieve when you know that they are home safe? Then this action is something for you! Stick your Flic where your child (or husband) can reach it and just tell your child to press it when they come home. A simple text message will be delivered to you.\n\nThis function also works for other types of scenarios. For example if you want to tell someone that you arrived at the office, or something like that.</string>
 
     <string name="action_egg_clock_name">Egg Clock</string>
     <string name="action_egg_clock_description">Make perfect eggs</string>
-    <string name="action_egg_clock_read_more_text">Atleast in Sweden, we have passed the year 1995, and most of us don\'t have these old egg clocks. And to be honest,
-    why should we? The cellphones took over the time keeping and it seems like it was a impossible task to make those round white egg clocks trendy.\n\nNow we
-    are aiming to revolutionize the time keeping in the kitchen further. Preset what you are cooking most of the time, stick a Flic where you can use it and press
-    it every time you put your eggs in the pot.\n\nOne trigger will start your timer, if you press during the time the timer is ticking or the alarm is ringing. The
-    Flic will turn the timer off.</string>
+    <string name="action_egg_clock_read_more_text">Atleast in Sweden, we have passed the year 1995, and most of us don\'t have these old egg clocks. And to be honest, why should we? The cellphones took over the time keeping and it seems like it was a impossible task to make those round white egg clocks trendy.\n\nNow we are aiming to revolutionize the time keeping in the kitchen further. Preset what you are cooking most of the time, stick a Flic where you can use it and press it every time you put your eggs in the pot.\n\nOne trigger will start your timer, if you press during the time the timer is ticking or the alarm is ringing. The Flic will turn the timer off.</string>
 
     <string name="action_skype_name">Skype</string>
     <string name="action_skype_description">Start a skype activity</string>
     <string name="action_skype_error">Unable to open Skype</string>
     <string name="action_skype_custom_description">&#160;with&#160;</string>
-    <string name="action_skype_read_more_text">This function requires you to have Skype installed on the device using it. Enter the username of
-    the person (or one of those skype bots that are popping up) you want to get in touch with, and specify how the contact should be made.
-    \n\n<b>Regular Call:</b> Start a regular Skype call towards that user.\n\n<b>Video Call:</b> Start a vid.. Whatever. You get it.</string>
+    <string name="action_skype_read_more_text">This function requires you to have Skype installed on the device using it. Enter the username of the person (or one of those skype bots that are popping up) you want to get in touch with, and specify how the contact should be made. \n\n<b>Regular Call:</b> Start a regular Skype call towards that user.\n\n<b>Video Call:</b> Start a vid.. Whatever. You get it.</string>
 
     <string name="action_fake_call_name">Fake Call</string>
     <string name="action_fake_call_description">Trigger a fake call</string>
     <string name="action_fake_call_rotation_label">Needs rotation</string>
     <string name="action_fake_call_custom_description">Triggers a fake call</string>
     <string name="action_fake_call_rotation_title">Needs Rotation</string>
-    <string name="action_fake_call_rotation_text">On some devices, you need to rotate the screenshot 90 degrees before using it in this action.\n\nTry the action out,
-    and if the image is badly rotated - enable this option.</string>
-    <string name="action_fake_call_read_more_text">Having a bad date? Press the Flic to easily get out of it. This action will open an incoming call view and start playing
-    your ringtone. The action expires after 20 seconds. To end it earlier - tap the screen or your Flic again.\n\n<b>TO SET IT UP: </b>By default - a standard picture of
-    \"Johan\" calling you on a swedish Sony device will be shown. This could greatly be improved with a simple step:\n\nTake a screenshot of your
-    incoming call screen and use it by clicking \"Select file\" beyond this text. On some devices, that screenshot needs to be rotated. If that is the case - enable the \"Needs rotation\" option.\n\nNow
-    this screenshot will be shown when you trigger this action. Hopefully it fools the people you are trying to get away from.</string>
+    <string name="action_fake_call_rotation_text">On some devices, you need to rotate the screenshot 90 degrees before using it in this action.\n\nTry the action out, and if the image is badly rotated - enable this option.</string>
+    <string name="action_fake_call_read_more_text">Having a bad date? Press the Flic to easily get out of it. This action will open an incoming call view and start playing your ringtone. The action expires after 20 seconds. To end it earlier - tap the screen or your Flic again.\n\n<b>TO SET IT UP: </b>By default - a standard picture of \"Johan\" calling you on a swedish Sony device will be shown. This could greatly be improved with a simple step:\n\nTake a screenshot of your incoming call screen and use it by clicking \"Select file\" beyond this text. On some devices, that screenshot needs to be rotated. If that is the case - enable the \"Needs rotation\" option.\n\nNow this screenshot will be shown when you trigger this action. Hopefully it fools the people you are trying to get away from.</string>
 
     <string name="action_shazam_name">Shazam</string>
     <string name="action_shazam_description">Start media recording</string>
-    <string name="action_shazam_read_more_text">Found a song on the radio that you really like? Want to know what song it is? Shazam will find out! Trigger this action
-    to open your Shazam media recording and it will give you all information you need about the song, and probably a bit more.</string>
+    <string name="action_shazam_read_more_text">Found a song on the radio that you really like? Want to know what song it is? Shazam will find out! Trigger this action to open your Shazam media recording and it will give you all information you need about the song, and probably a bit more.</string>
 
     <string name="action_simulate_screen_touch_name">Simulate Screen Touch</string>
     <string name="action_simulate_screen_touch_description">Touches your screen</string>
@@ -1666,48 +1374,26 @@
     <string name="action_sonos_custom_description_6">Forward&#160;</string>
     <string name="action_sonos_custom_description_7">Rewind&#160;</string>
     <string name="action_sonos_custom_description_8">Volume&#160;</string>
-    <string name="action_sonos_read_more_text">Haven\'t we all wished for synchronized wireless speakers with an amazing sound? Sonos make
-    this possible. To configure and trigger your Sonos speakers you first need to add them to this application in the provider-view.
-    \n\nWhen atleast one Sonos speaker is found it will appear right under this wall of text.\n\n<u><b>TRIGGER ONE SONOS:</b></u>\nPick the Sonos speaker you want to trigger
-    and define how you want to trigger it. Thats it. You are done.\n\n<u><b>TRIGGER INDIVIDUAL SPEAKERS:</b></u>\n<b>1.</b> Go to our Flic app -> providers -> Sonos and
-    find all your speakers. We don\'t get any information about the names of the speakers so you have to insert this name yourself to be able to distinguish them.
-    Maybe make an action with the speaker, and see what speaker in real life it triggers.\n\n<b>2.</b> Go to your Sonos app where all your speakers are listed.
-    Make sure that the speaker you want to trigger doesn\'t belong to a group.\n\n<b>3.</b> Pick the Sonos speaker in the Sonos action (Flic app) and assign it
-    to a Flic trigger. Repeat from step (1) with your next speaker(s)\n\n<u><b>TRIGGER A GROUP:</b></u>\nSo we are not using an SDK for this action. Instead we
-    are mimicking the signals the official Sonos app sends to its speakers. That makes it hard to give the Flic app total control of the
-    speakers. Instead you have to configure this the right way. No worries tho. You only have to do this once. Thanks to our backer Jordan for the
-    following information.\n\n<b>1.</b> Go to our Flic app -> providers -> Sonos and find all your speakers. We don\'t get any information about the names
-    of the speakers so you have to insert this name yourself to be able to distinguish them. Maybe make an action with the speaker, and see what speaker in
-    real life it triggers.\n\n<b>2.</b> Go to your Sonos app where all your speakers are listed. Here you should see a button called \"GROUP\" on each of
-    the speakers. Press this button and remember what speaker you grouped on. Now add all the speakers you want to be toggled in this group.\n\n<b>3.</b>
-    In the Sonos action in the Flic app - only trigger the speaker that was the original member of the group. Now when you trigger this action, all the
-    Sonos speaker included in this group should be affected.</string>
+    <string name="action_sonos_read_more_text">Haven\'t we all wished for synchronized wireless speakers with an amazing sound? Sonos make this possible. To configure and trigger your Sonos speakers you first need to add them to this application in the provider-view. \n\nWhen atleast one Sonos speaker is found it will appear right under this wall of text.\n\n<u><b>TRIGGER ONE SONOS:</b></u>\nPick the Sonos speaker you want to trigger and define how you want to trigger it. Thats it. You are done.\n\n<u><b>TRIGGER INDIVIDUAL SPEAKERS:</b></u>\n<b>1.</b> Go to our Flic app -> providers -> Sonos and find all your speakers. We don\'t get any information about the names of the speakers so you have to insert this name yourself to be able to distinguish them. Maybe make an action with the speaker, and see what speaker in real life it triggers.\n\n<b>2.</b> Go to your Sonos app where all your speakers are listed. Make sure that the speaker you want to trigger doesn\'t belong to a group.\n\n<b>3.</b> Pick the Sonos speaker in the Sonos action (Flic app) and assign it to a Flic trigger. Repeat from step (1) with your next speaker(s)\n\n<u><b>TRIGGER A GROUP:</b></u>\nSo we are not using an SDK for this action. Instead we are mimicking the signals the official Sonos app sends to its speakers. That makes it hard to give the Flic app total control of the speakers. Instead you have to configure this the right way. No worries tho. You only have to do this once. Thanks to our backer Jordan for the following information.\n\n<b>1.</b> Go to our Flic app -> providers -> Sonos and find all your speakers. We don\'t get any information about the names of the speakers so you have to insert this name yourself to be able to distinguish them. Maybe make an action with the speaker, and see what speaker in real life it triggers.\n\n<b>2.</b> Go to your Sonos app where all your speakers are listed. Here you should see a button called \"GROUP\" on each of the speakers. Press this button and remember what speaker you grouped on. Now add all the speakers you want to be toggled in this group.\n\n<b>3.</b> In the Sonos action in the Flic app - only trigger the speaker that was the original member of the group. Now when you trigger this action, all the Sonos speaker included in this group should be affected.</string>
 
     <string name="action_speech_recognition_name">Google Voice</string>
     <string name="action_speech_recognition_description">Trigger your speech recognition</string>
-    <string name="action_speech_recognition_read_more_text">This function will open Google Voice. No options are required to
-    configure it, and its possibilities are (almost) infinite.</string>
+    <string name="action_speech_recognition_read_more_text">This function will open Google Voice. No options are required to configure it, and its possibilities are (almost) infinite.</string>
 
     <string name="action_unknown_name">Unknown</string>
     <string name="action_unknown_description">Unknown action</string>
-    <string name="action_unknown_read_more_text">Hmm I (the application is speaking to you) don\'t recognize this funktion.
-    This function is shared from another Flic-application that has this function included, but I don\'t have it. Either my developers
-    removed it in a later version, since they found it obsolete or it is a new function that arrived in a later version of this application
-    that you don\'t have. If it was shared from another operating system, my developers have been to lazy to give it to me yet or maybe
-    it was not possible to program it.</string>
+    <string name="action_unknown_read_more_text">Hmm I (the application is speaking to you) don\'t recognize this funktion. This function is shared from another Flic-application that has this function included, but I don\'t have it. Either my developers removed it in a later version, since they found it obsolete or it is a new function that arrived in a later version of this application that you don\'t have. If it was shared from another operating system, my developers have been to lazy to give it to me yet or maybe it was not possible to program it.</string>
 
     <string name="action_unsupported_name">Unsupported</string>
     <string name="action_unsupported_description">Unsupported action</string>
-    <string name="action_unsupported_read_more_text">This function is not possible to execute since the person (or cat) who
-    shared this with you has another version of the application and this function. You really need to synchronize yourselves&#8230;</string>
+    <string name="action_unsupported_read_more_text">This function is not possible to execute since the person (or cat) who shared this with you has another version of the application and this function. You really need to synchronize yourselves&#8230;</string>
 
     <string name="action_vibrate_name">Vibrate</string>
     <string name="action_vibrate_description">Makes your phone vibrate</string>
     <string name="action_vibrate_custom_description_1">Vibrate for&#160;</string>
     <string name="action_vibrate_custom_description_2">&#160;seconds</string>
     <string name="action_vibrate_custom_description_3">Vibrate indefinitely</string>
-    <string name="action_vibrate_read_more_text">Why do you even read this? Your phone will vibrate. That\'s it. We won\'t tell you what
-    you could do with it, it is completely up to you.\n\n<b>Requirements:</b> A vibrator in your phone.</string>
+    <string name="action_vibrate_read_more_text">Why do you even read this? Your phone will vibrate. That\'s it. We won\'t tell you what you could do with it, it is completely up to you.\n\n<b>Requirements:</b> A vibrator in your phone.</string>
 
     <string name="action_volume_control_name">Volume Control</string>
     <string name="action_volume_control_description">Powerful volume control tool</string>
@@ -1716,25 +1402,17 @@
     <string name="action_volume_control_custom_description_3">&#160;volume&#160;</string>
     <string name="action_volume_control_custom_description_up">Increase your&#160;</string>
     <string name="action_volume_control_custom_description_down">Decrease your&#160;</string>
-    <string name="action_volume_control_read_more_text">Enter a number in the scale 0 - 10, where 0 is silent and 10 is the highest volume your cell phone
-    can produce. Then apply this volume to either your system, ringtone or media.\n\n<b>System sound:</b>
-    The sounds produced by your system - key presses and more.\n\n<b>Ringtone:</b> When someone calls you.\n\n<b>Media sound:</b> Streamed videos and music etc.
-    </string>
+    <string name="action_volume_control_read_more_text">Enter a number in the scale 0 - 10, where 0 is silent and 10 is the highest volume your cell phone can produce. Then apply this volume to either your system, ringtone or media.\n\n<b>System sound:</b> The sounds produced by your system - key presses and more.\n\n<b>Ringtone:</b> When someone calls you.\n\n<b>Media sound:</b> Streamed videos and music etc.</string>
 
     <string name="action_wake_up_name">Wake Up</string>
     <string name="action_wake_up_description">Enter a time to wake up</string>
     <string name="action_wake_up_custom_description">Wakes you up at&#160;</string>
-    <string name="action_wake_up_read_more_text">Having a hard time waking up? Select a time and your cellphone will make a loud noise everyday at this time.
-    Before you ask. No you can\'t lower the volume. And no, you can\'t disable it. \n\nJust kidding. Press your flic. Wherever you are hiding it..</string>
+    <string name="action_wake_up_read_more_text">Having a hard time waking up? Select a time and your cellphone will make a loud noise everyday at this time. Before you ask. No you can\'t lower the volume. And no, you can\'t disable it. \n\nJust kidding. Press your flic. Wherever you are hiding it..</string>
 
     <string name="action_yo_name">Yo</string>
     <string name="action_yo_description">Yo with Flic</string>
     <string name="action_yo_custom_description">&#160;with&#160;</string>
-    <string name="action_yo_read_more_text">This function will send a "Yo" to one or more of your friends. Enter
-    the username to your friend that you want to contact.
-    \n\nYou can also include a link or your location in the "Yo" (but not both!). If you decide to send a link, don\'t
-    forget the correct protocol (for example <i><b><u>https://</u></b>www.flic.io</i>).\n\nThe mode \"Yo all\" will send a \"Yo\" to all your friends. This sub action
-    only supports a link to be sent. Leave it blank to send a regular \"Yo\" to your friends.</string>
+    <string name="action_yo_read_more_text">This function will send a \"Yo\" to one or more of your friends. Enter the username to your friend that you want to contact. \n\nYou can also include a link or your location in the \"Yo\" (but not both!). If you decide to send a link, don\'t forget the correct protocol (for example <i><b><u>https://</u></b>www.flic.io</i>).\n\nThe mode \"Yo all\" will send a \"Yo\" to all your friends. This sub action only supports a link to be sent. Leave it blank to send a regular \"Yo\" to your friends.</string>
 
     <string name="action_web_hook_name">Web Hook</string>
     <string name="action_web_hook_description">Trigger a web hook client</string>
@@ -1746,9 +1424,7 @@
     <string name="action_yo_mode_label">Mode</string>
     <string name="action_yo_type_label">Type</string>
     <string name="action_yo_all_custom_description">&#160;with&#160;</string>
-    <string name="action_yo_all_read_more_text">Ever wondered how it would feel like to send a "Yo" to all your friends at once, from a click of
-    a button? Well, now you can find out.\n\nIf you decide to send them a link as well, don\'t
-    forget the correct protocol (for example <i><b><u>https://</u></b>www.flic.io</i>).</string>
+    <string name="action_yo_all_read_more_text">Ever wondered how it would feel like to send a \"Yo\" to all your friends at once, from a click of a button? Well, now you can find out.\n\nIf you decide to send them a link as well, don\'t forget the correct protocol (for example <i><b><u>https://</u></b>www.flic.io</i>).</string>
 
     <!-- Settings -->
 
@@ -1944,7 +1620,6 @@
     </string-array>
     <string name="title_activity_button_grabber">ButtonGrabberActivity</string>
 
-    <string name="hello_world">Hello world !</string>
-    <string name="hello">Hello !!</string>
+    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>
