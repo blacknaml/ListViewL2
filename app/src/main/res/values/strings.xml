@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">List View L2</string>
     <!-- Flic -->
     <string name="flic_app_name">Flic</string>
 
@@ -1919,10 +1918,8 @@
     <string name="setting_yo_location">Send with your location</string>
     <string name="setting_yo_regular">Send just a regular yo</string>
 
-
     <!-- PARTNERS -->
     <string name="partner_global_coming_soon">Coming soon&#8230;</string>
-
 
     <!-- CAMERA -->
     <string name="app_name">CWAC-Camera Demo</string>
@@ -1949,7 +1946,4 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
-
-
 </resources>
